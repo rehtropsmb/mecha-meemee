@@ -1,0 +1,349 @@
+# Pack Information
+name: Super Monkey Ball Stardust
+abbrName: stardust
+creators: 
+  - Nambo
+download: https://mega.nz/file/S8MAAZCb#qopcgLOShOI2sUmcOkAwTRIl1VtgyR3m2e84PjqBu0E
+
+# Stages
+story:
+  - Impression:
+    - hasRedGoal
+  - Leany Bridges:
+    - hasRedGoal
+  - Slope Step:
+    - hasRedGoal
+  - Showerhead:
+    - hasRedGoal
+  - Palette Choice:
+    - hasRedGoal
+  - Reveal:
+    - hasRedGoal
+  - Compass Rose:
+    - hasRedGoal
+  - Double Time:
+    - hasRedGoal
+  - Klein Bottle:
+    - hasRedGoal
+  - Ice Tray:
+    - hasRedGoal
+  - Ripples:
+    - hasRedGoal
+  - Polyominos:
+    - hasRedGoal
+  - Color Channels:
+    - hasRedGoal
+  - Dragsters:
+    - hasRedGoal
+  - Scatterbrain:
+    - hasRedGoal
+  - Liftoff:
+    - hasRedGoal
+  - Pan Pipes:
+    - hasRedGoal
+  - Cone Flake:
+    - hasRedGoal
+  - Pitfall:
+    - hasRedGoal
+  - Cloudscape:
+    - hasRedGoal
+  - Shatter:
+    - hasRedGoal
+  - Orbital Armada:
+    - hasRedGoal
+  - Sweepers:
+    - hasRedGoal
+  - Solar Vessel:
+    - hasRedGoal
+  - Monkey Grill:
+    - hasRedGoal
+  - Tick-Flip:
+    - hasRedGoal
+  - Gridlock:
+    - hasRedGoal
+  - Monorails:
+    - hasRedGoal
+  - Power Grid:
+    - hasRedGoal
+  - Detonation:
+    - hasRedGoal
+  - Chevrons:
+    - hasRedGoal
+  - Wraparound:
+    - hasRedGoal
+  - Skid Siphon:
+    - hasRedGoal
+  - Exoskeleton:
+    - hasRedGoal
+  - Sequence Break:
+    - hasRedGoal
+  - Icy Precipice:
+    - hasRedGoal
+  - Twin Diamond:
+    - hasRedGoal
+  - Frozen Quad:
+    - hasRedGoal
+  - Avoidance:
+    - hasRedGoal
+  - Rebound Slider:
+    - hasRedGoal
+  - Hopscotch:
+    - hasRedGoal
+  - Chain Ricochet:
+    - hasRedGoal
+  - Wrecking Balls:
+    - hasRedGoal
+  - Spleef:
+    - hasRedGoal
+  - Deflection Steps:
+    - hasRedGoal
+  - Door Dash:
+    - hasRedGoal
+  - Drill Bits:
+    - hasRedGoal
+  - Polymer:
+    - hasRedGoal
+  - Typewriter:
+    - hasRedGoal
+  - Chroma-Comb:
+    - hasRedGoal
+  - Recolor:
+    - hasRedGoal
+  - Imbalance:
+    - hasRedGoal
+  - Overhangs:
+    - hasRedGoal
+  - Down Under:
+    - hasRedGoal
+  - Falling Ahead:
+    - hasRedGoal
+  - Waffle Weave:
+    - hasRedGoal
+  - Currents:
+    - hasRedGoal
+  - Mainframe:
+    - hasRedGoal
+  - Random Number Generator:
+    - hasRedGoal
+  - Duplication:
+    - hasRedGoal
+  - Bouncy Fortress:
+    - hasRedGoal
+  - Deformed Popsicle:
+    - hasRedGoal
+  - Escalade:
+    - hasRedGoal
+  - Cross Stitch:
+    - hasRedGoal
+  - Wind the Gap:
+    - hasRedGoal
+  - Framework:
+    - hasRedGoal
+  - 8 Friends :):
+    - hasRedGoal
+  - Carnival Cups:
+    - hasRedGoal
+  - Slippery Speedway:
+    - hasRedGoal
+  - Break the Targets:
+    - hasRedGoal
+  - Closed Circuit:
+    - hasRedGoal
+  - Leaning Tower:
+    - hasRedGoal
+  - Skyline:
+    - hasRedGoal
+  - Frequencies:
+    - hasRedGoal
+  - Raise the Roof!:
+    - hasRedGoal
+  - Ice Mining:
+    - hasRedGoal
+  - Electromagnetism:
+    - hasRedGoal
+  - Chakrams:
+    - hasRedGoal
+  - Cables:
+    - hasRedGoal
+  - Percussion Ensemble:
+    - hasRedGoal
+  - Pinwheel Tracks:
+    - hasRedGoal
+  - Salt Factory:
+    - hasRedGoal
+  - Flip Switches:
+    - hasRedGoal
+  - Nanobot Invasion:
+    - hasRedGoal
+  - Palette Swap:
+    - hasRedGoal
+  - Chain Scoop:
+    - hasRedGoal
+  - Drawbridges:
+    - hasRedGoal
+  - Hula Hoops:
+    - hasRedGoal
+  - Foosball:
+    - hasRedGoal
+  - Membrane:
+    - hasRedGoal
+  - Shooting Stars:
+    - hasRedGoal
+  - Neptune's Wrath:
+    - hasRedGoal
+  - Ring Scrambler:
+    - hasRedGoal
+  - Gamma Burst:
+    - hasRedGoal
+  - Scaffolding:
+    - hasRedGoal
+  - Rapids:
+    - hasRedGoal
+  - Ziplines:
+    - hasRedGoal
+  - Butterfly:
+    - hasRedGoal
+  - White Dwarf:
+    - hasRedGoal
+  - Impact:
+    - hasRedGoal
+b:
+  - Bouncy Bubble Land
+  - Balloon Fleet
+  - Solar Orbit
+  - Deep Space
+  - Singularity
+  - Glitch Anomaly
+  - Meta Merger
+  - Pulsar
+  - Cosmic Genesis
+  - Stardust Haven
+bx:
+a:
+  - Hey Goobz Play SMAL:
+    - hasGreenGoal
+    - hasRedGoal
+  - Eddy's Controller
+  - Hungry
+  - Awesome Sauce
+  - Zorp Stairs
+  - His Name is Jeffery
+  - Worlds Hardest Game
+  - Dwait Epic
+  - Normal Postmodern
+  - Normal Simple
+  - Jolt Channel Die
+  - Hey Eddy Play Fun House
+  - Bruh Cubes
+  - Mess of Cubes
+  - "POV: Ur a GD Cube"
+  - Hey Steven Play Terminal Velocity
+  - Checker Carpet Slide
+  - The Slope
+  - Giant Enemy Bruh 2
+  - Your Credit Card Information:
+    - hasGreenGoal
+    - hasRedGoal
+  - Ice Castle Rink
+  - Ice Hills
+  - Pogo Puzzle
+  - Tick-Flip
+  - Freeway Grid
+  - Cookie Jump Downhill
+  - Bracelet Ice
+  - Bounce Spikes
+  - Ricochet:
+    - hasRedGoal
+  - Sugar Cone Ice
+  - Gravity Stuff Test
+  - Jello Bounce
+  - Bounce Bevel Squares
+  - Carnival Cups
+  - Bounce Edge Box
+  - Hammer Pipes
+  - Wind Chimes
+  - Loop Launch:
+    - hasRedGoal
+  - Grasshopper:
+    - hasRedGoal
+  - Brutalism:
+    - hasRedGoal
+  - Figure 8
+  - Stellar W2 Draft
+  - Chain Link
+  - Double Loop
+  - Library
+  - Hill Concept
+  - Ant Farm
+  - Auto Door Launcher
+  - Buggy Raft Concept
+  - Plank Shuffle
+  - Drop Hit Puzzle
+  - Wormhole U-Turn Puzzle
+  - Bounce Wave
+  - Frypan
+  - Revolution Concept
+  - This Was Gonna Be a Whole City
+  - Cross Fling
+  - Nambo Can't Model a Net
+  - Node Bounce
+  - Bracket Bash
+  - Pick Your Poison Test
+  - Spaghettios
+  - Strings
+  - Angle Redirect
+  - Kickflip Ice Up
+  - Slope Step Overclock
+  - Trainwreck
+  - Wormhole Bouncepad Launcher
+  - Tusk Tubes
+  - Buffer:
+    - hasRedGoal
+  - Sweepers Bunch  Park
+  - Staircase Slopes
+  - Sky Grid
+  - Rorrim Launcher
+  - Concentric Bowls
+  - Timber
+  - Comeback Run
+  - Gears
+  - Downhill Rinks
+  - Ring Helix
+  - Run-Up Bounce
+  - Key Launch
+  - Bevel Park
+  - Checker Fractal
+  - Puddles
+  - Wall Bounce Low
+  - Ice Wall Slope
+  - Pulse Diamond
+  - Candy Clog
+  - Cycle Madness
+  - Cycle Madness 2
+  - Sleep Wire
+  - Stupid Swing Bridges
+  - Bounce Mechanics
+  - Ladder Stack
+  - Optimize!
+  - Cliptimize!
+  - Get a Vertex Clip Lol
+  - Dotted Line
+  - Debug Spider
+  - Giant Enemy Bruh
+  - This Guy Eats a Banana
+  - 66 P's
+  - Fun Wire Challenge:
+    - hasGreenGoal
+    - hasRedGoal
+  - Spiky Die
+  - Lava River Hard
+  - Bubble Kaizo
+  - Rock On
+  - Cranks
+  - Precession
+ax:
+e:
+  - Monuments
+ex:
+m:
+mx:
