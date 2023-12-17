@@ -4,6 +4,7 @@ import { EnvService } from './services/env.service';
 import { StageService } from './services/stage.service';
 import { TwitchService } from './services/twitch.service';
 import { CommandService } from './services/command.service';
+import { Command } from './interfaces/command.interface';
 
 // Don't end program when uncaught exception occurs
 process.on('uncaughtException', (error) => {
@@ -11,20 +12,22 @@ process.on('uncaughtException', (error) => {
 });
 
 // load env variables
-const envService: EnvService = container.resolve<EnvService>(EnvService);
+const envService: EnvService = container.get<EnvService>(EnvService);
 envService.init();
 
-// connect to discord
-const discordService: DiscordService =
-    container.resolve<DiscordService>(DiscordService);
-discordService.init();
-
-// connect to twitch
-const twitchService: TwitchService = container.resolve<TwitchService>(TwitchService);
-twitchService.init();
-
-// setup main services
-const stageService: StageService = container.resolve<StageService>(StageService);
+// setup base services
+const stageService: StageService = container.get<StageService>(StageService);
 stageService.init();
-const commandService: CommandService = container.resolve<CommandService>(CommandService);
+
+// setup commands
+const commandService: CommandService =
+    container.get<CommandService>(CommandService);
 commandService.init();
+
+// finally, connect to discord & twitch
+const discordService: DiscordService =
+    container.get<DiscordService>(DiscordService);
+discordService.init();
+const twitchService: TwitchService =
+    container.get<TwitchService>(TwitchService);
+twitchService.init();

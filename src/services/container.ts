@@ -7,9 +7,9 @@ import { CommandService } from './command.service';
 
 const container = new Container();
 container.bind<EnvService>(EnvService).toSelf();
-container.bind<DiscordService>(DiscordService).toSelf();
-container.bind<TwitchService>(TwitchService).toSelf();
-container.bind<StageService>(StageService).toSelf();
-container.bind<CommandService>(CommandService).toSelf();
+container.bind<StageService>(StageService).toSelf().inSingletonScope();
+container.bind<CommandService>(CommandService).toSelf().inSingletonScope();
+container.bind<DiscordService>(DiscordService).toSelf().inSingletonScope();
+container.bind<TwitchService>(TwitchService).toSelf().inSingletonScope();
 
 export default container;

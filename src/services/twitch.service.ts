@@ -2,14 +2,20 @@ import { inject, injectable } from 'inversify';
 import 'reflect-metadata';
 import * as tmi from 'tmi.js';
 import { EnvService } from './env.service';
+import { CommandService } from './command.service';
 
 @injectable()
 export class TwitchService {
     private envService: EnvService;
-    constructor(@inject(EnvService) envService) {
+    private commandService: CommandService;
+    constructor(
+        @inject(EnvService) envService,
+        @inject(CommandService) commandService
+    ) {
         this.envService = envService;
+        this.commandService = commandService;
     }
-    
+
     private twitch: any;
 
     private channels: string[] = [
@@ -17,6 +23,13 @@ export class TwitchService {
         'rehtrop',
         'ganon',
         'Namb0',
+        'eddy0777',
+        'atgv01',
+        'TheWalkr_',
+        'dmt_goobz',
+        'MonkeyBallSpeedruns',
+        'Youbacon42',
+        'ToothpasteThy',
     ];
 
     public async init() {
@@ -24,7 +37,7 @@ export class TwitchService {
             options: { debug: false },
             connection: {
                 reconnect: true,
-                secure: true
+                secure: true,
             },
             identity: {
                 username: this.envService.twitchUsername,
@@ -35,15 +48,18 @@ export class TwitchService {
 
         this.twitch.connect();
         this.twitch.on('logon', () => {
-            console.log('Connected to Twitch!');
+            console.log('Twitch Client Connected');
         });
-        this.twitch.on('message', (channel, userstate, message, self) => {
+        this.twitch.on('message', (channel, user, message, self) => {
             if (self) return;
+            this.commandService.handleTwitchCommand(message, user, channel);
         });
     }
 
     public sendMessage(channelName: string, messages: string[]) {
-        if (!channelName.startsWith('#')) { channelName = `#${channelName}`; }
+        if (!channelName.startsWith('#')) {
+            channelName = `#${channelName}`;
+        }
         // const messages = this.removeEmoji(message);
         messages.forEach((block, index) => {
             setTimeout(() => {
