@@ -1,0 +1,156 @@
+# Pack Information
+name: Invasion
+srcname: Super Monkey Ball Invasion
+creator: scrap651
+image: https://cdn.discordapp.com/attachments/412371259834368001/1111663580803244092/27_0.png
+download: https://mega.nz/file/UF02RDYB#cOCngMR7UPrxocbfSI0JpJvEdVqtaMvn37hjyHlxOx4
+video: https://youtu.be/oznX-HkgYMA
+ilsheet: https://docs.google.com/spreadsheets/d/16c2cC1abxdVBIGS0ejiWzwTboMZrk65XO2Znj8iMaYo/edit#gid=282367526
+srcpage: 
+description: Features a complete Story Mode with a unique soundtrack by Jim Nopedie. Stages place a heavy focus on presenting new, inventive ideas one after another with nearly every stage introducing some new combo or usage of elements. For example, world 1 introduces uncommon mechanics such as one-way walls and icy platforms. This idea-focused approach leads to experimental level design, while maintaining the polish expected from any full custom-themed pack.
+sheetid: 16c2cC1abxdVBIGS0ejiWzwTboMZrk65XO2Znj8iMaYo/282367526
+release: May 26th, 2023
+pracModCompatible: 0
+gameId: GM2EII
+alias:
+  - Idea Invasion
+  - II
+  - Invade
+elite: invasion
+
+# Stages
+story:
+  - Duality
+  - 5 Star Level
+  - Show Off
+  - Scavenger
+  - Gravity
+  - Semisolid Maze
+  - Lane Switching
+  - Training Platforms
+  - Ring Bar
+  - 2-D
+  - Infinity Mirror:
+    - hasGreenGoal
+    - hasRedGoal
+  - Mini Puzzle
+  - Beeline
+  - Dismantled Pedestal
+  - Captivity
+  - Run Down Hall
+  - Optional Rebound
+  - Summit
+  - Risky Ridges
+  - House Hopping:
+    - hasGreenGoal
+    - hasRedGoal
+  - Sunny Slope
+  - Crown
+  - Jungle Gym
+  - Bulrush Pond
+  - Mosquitoes:
+    - hasRedGoal
+  - Sublevels
+  - Woodpecker:
+    - hasGreenGoal
+  - Nice Shot!
+  - Treacherous Tightrope:
+    - hasGreenGoal
+  - Tree Fort
+  - Marbling
+  - Scattershot
+  - Filter:
+    - hasGreenGoal
+    - hasRedGoal
+  - Lifts
+  - Vectors
+  - Delayed Reaction
+  - Gamble:
+    - hasGreenGoal
+    - hasRedGoal
+  - Barbed Jaw
+  - Ice Skate Park:
+    - hasGreenGoal
+    - hasRedGoal
+  - Personal Space
+  - 2 Staircases:
+    - hasGreenGoal
+  - Sky Trampolines
+  - Umbrellas
+  - Superpower
+  - Triple Flipper Threat
+  - Slippery When Wet
+  - Too Many Wires:
+    - hasGreenGoal
+    - hasRedGoal
+  - Ruffle
+  - Deranged Toy
+  - Water Bird:
+    - hasRedGoal
+  - Culling Plain
+  - Digital
+  - Outrun:
+    - hasGreenGoal
+  - Heat Waves:
+    - hasGreenGoal
+    - hasRedGoal
+  - Scorpion
+  - Triangle Walk:
+    - hasGreenGoal
+  - Unstable Trail
+  - Recoil Bunkers
+  - Volcano Escape
+  - Rotisserie:
+    - hasGreenGoal
+    - hasRedGoal
+  - Collapsing Bridge
+  - Skill Tree
+  - Ritual
+  - Double Bounce Ban
+  - Energy Halo
+  - Hideout
+  - Speed Tech
+  - Crumbled Castle
+  - Worship
+  - Drills
+  - Unconventional Combo:
+    - hasGreenGoal
+  - Minimalist Cactus
+  - Wall Running
+  - Hasty Slither
+  - Ring Of Agency:
+    - hasRedGoal
+  - Whiskers
+  - Electric Fence
+  - Leak
+  - Transform:
+    - hasGreenGoal
+  - Neon
+  - Checker Interceptor
+  - Seesaw Cockfight
+  - Entity
+  - Disperse
+  - Swipe
+  - Counterweight
+  - Sneaky Steps
+  - Heavy Weight
+  - Sci-Fi Highway
+  - Comeback
+  - Difficulty Spikes
+  - Torture Chamber
+  - Proportional Editing
+  - Relapse
+  - Front And Back
+  - 8 Fun Bracelets
+  - Teleportation
+  - Arbitrary Restriction
+  - Afterlife
+  - Sensory Overload
+b:
+bx:
+a:
+ax:
+e:
+ex:
+m:
+mx:

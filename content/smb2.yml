@@ -1,0 +1,351 @@
+# Pack Information
+name: SMB2
+fullname: Super Monkey Ball 2
+srcname: Super Monkey Ball 2
+creator: Amusement Vision
+video: https://youtu.be/h3HQGPKYjUM
+sheetid: 1KoneeqJzheHFYapQ_JfyxL9sI0X8_BE7ZEVMZt0t0bI/890758915/1648160163/1067515196/1644228185/504317665/1991018095
+download:
+ilsheet: https://docs.google.com/spreadsheets/d/1KoneeqJzheHFYapQ_JfyxL9sI0X8_BE7ZEVMZt0t0bI/edit#gid=890758915
+srcpage: https://www.speedrun.com/supermonkeyball2
+image: https://segaretro.org/images/9/94/SMB2_title.png
+description: This is the vanilla version of Super Monkey Ball 2, the ball rolling party game released for Nintedo Gamecube in 2002. Features much larger and higher-speed stage geometry than SMB1, alongside special gimmicks such as wormholes, switches, and seesaws. The main gameplay mode is Story instead of Challenge, which has unlimited lives and choosable stage order per-world. There are 12 multiplayer minigames, with some original and some remade from SMB1.
+alias:
+  - Vanilla
+  - PAL
+release: August 25th, 2002
+pracModCompatible: 0
+gameId: GM2E8P
+elite: smb2
+
+# Stages
+story:
+  - Simple
+  - Hollow
+  - Bumpy
+  - Switches:
+      - hasGreenGoal
+  - Conveyers
+  - Floaters
+  - Slopes
+  - Sliders
+  - Spinning Top
+  - Curve Bridge
+  - Banks
+  - Eaten Floor
+  - Hoppers
+  - Coaster
+  - Bumpy Check
+  - Swell
+  - Gravity Slider
+  - Inchworms:
+      - hasGreenGoal
+      - hasRedGoal
+  - Totalitarianism
+  - Alternative
+  - Organic Form
+  - Reversible Gear
+  - Stepping Stones
+  - Dribbles
+  - U.R.L.
+  - Mad Rings:
+      - hasGreenGoal
+      - hasRedGoal
+  - Curvy Options
+  - Twister
+  - Downhill
+  - Junction:
+      - hasGreenGoal
+  - Pro Skaters:
+      - hasGreenGoal
+  - Giant Comb
+  - Beehive
+  - Dynamic Maze
+  - Triangle Holes
+  - Launchers:
+      - hasGreenGoal
+  - Randomizer:
+      - hasGreenGoal
+      - hasRedGoal
+  - Coin Slots:
+      - hasGreenGoal
+  - Seesaw Bridges
+  - Arthropod
+  - Wormhole
+  - Free Fall:
+      - hasGreenGoal
+  - Melting Pot
+  - Mad Shuffle
+  - Bead Screen
+  - Jump Machine:
+      - hasGreenGoal
+      - hasRedGoal
+  - Zigzag Slope
+  - Tower
+  - Toggle
+  - Fluctuation
+  - Combination
+  - Punched Seesaws:
+      - hasGreenGoal
+  - Opera
+  - Brandished
+  - Tiers:
+      - hasGreenGoal
+      - hasRedGoal
+  - Cliffs
+  - Narrow Peaks
+  - Detour:
+      - hasGreenGoal
+  - Switch Inferno
+  - Folders
+  - Spiral Bridge
+  - Wavy Option
+  - Obstacle
+  - Domino
+  - Sieve
+  - Flock
+  - Double Spiral
+  - Hierarchy
+  - 8 Bracelets:
+      - hasGreenGoal
+      - hasRedGoal
+  - Quick Turn
+  - Pistons
+  - Soft Cream
+  - Momentum
+  - Entangled Path:
+      - hasGreenGoal
+  - Totters
+  - Vortex:
+      - hasGreenGoal
+  - Warp:
+      - hasGreenGoal
+  - Trampolines
+  - Swing Shaft
+  - Linear Seesaws
+  - Serial Jump:
+      - hasGreenGoal
+      - hasRedGoal
+  - Cross Floors
+  - Spinning Saw
+  - Chipped Pipes:
+      - hasGreenGoal
+  - Flat Maze
+  - Guillotine
+  - Cork Screw
+  - Orbiters
+  - Twin Basin
+  - Air Hockey
+  - Training
+  - Gimmick
+  - Mountain
+  - Disorder
+  - 3D Maze
+  - Labyrinth
+  - Postmodern
+  - Revolution
+  - Invisible
+  - Created By
+b:
+  - Simple
+  - Hollow
+  - Bumpy
+  - Switches:
+      - hasGreenGoal
+  - Bowl:
+      - tourneyBan
+      - isBonus
+  - Floaters
+  - Slopes
+  - Sliders
+  - Spinning Top
+  - Curve Bridge
+bx:
+  - Conveyers
+  - Bumpy Check
+  - Alternative
+  - Junction:
+      - hasGreenGoal
+  - Bead Screen
+  - Fluctuation
+  - Folders
+  - Quick Turn
+  - Linear Seesaws
+  - Birth
+a:
+  - Banks
+  - Eaten Floor
+  - Hoppers
+  - Coaster
+  - Board Park:
+      - tourneyBan
+      - isBonus
+  - Swell
+  - Gravity Slider
+  - Inchworms:
+      - hasGreenGoal
+      - hasRedGoal
+  - Totalitarianism
+  - Leveler:
+      - isBonus
+  - Organic Form
+  - Reversible Gear
+  - Stepping Stones
+  - Dribbles
+  - U.R.L.
+  - Mad Rings:
+      - hasGreenGoal
+      - hasRedGoal
+  - Curvy Options
+  - Twister
+  - Downhill
+  - Rampage:
+      - isBonus
+  - Pro Skaters:
+      - hasGreenGoal
+      - tourneyBan
+  - Giant Comb
+  - Beehive
+  - Dynamic Maze
+  - Triangle Holes
+  - Launchers:
+      - hasGreenGoal
+  - Randomizer:
+      - hasGreenGoal
+      - hasRedGoal
+  - Coin Slots:
+      - hasGreenGoal
+  - Seesaw Bridges
+  - Arthropod
+ax:
+  - Auto Doors
+  - Heavy Sphere
+  - Stagger
+  - U.F.O.
+  - Ring Bridges
+  - Domes
+  - Amida Lot
+  - Long Slider
+  - Grid Bridge
+  - Teapot
+e:
+  - Wormhole
+  - Free Fall:
+      - hasGreenGoal
+  - Melting Pot
+  - Mad Shuffle
+  - Partition:
+      - tourneyBan
+  - Jump Machine:
+      - hasGreenGoal
+      - hasRedGoal
+  - Zigzag Slope
+  - Tower
+  - Toggle
+  - Pachinko:
+      - isBonus
+  - Combination
+  - Punched Seesaws:
+      - hasGreenGoal
+  - Opera
+  - Brandished:
+      - tourneyBan
+  - Tiers:
+      - hasGreenGoal
+      - hasRedGoal
+  - Cliffs
+  - Narrow Peaks:
+      - tourneyBan
+  - Detour:
+      - hasGreenGoal
+  - Switch Inferno
+  - Earthquake:
+      - isBonus
+  - Spiral Bridge
+  - Wavy Option
+  - Obstacle
+  - Domino
+  - Sieve
+  - Flock
+  - Double Spiral
+  - Hierarchy
+  - 8 Bracelets:
+      - hasGreenGoal
+      - hasRedGoal
+  - Banana Hunting:
+      - isBonus
+      - tourneyBan
+  - Pistons
+  - Soft Cream
+  - Momentum
+  - Entangled Path:
+      - hasGreenGoal
+  - Totters
+  - Vortex:
+      - hasGreenGoal
+  - Warp:
+      - hasGreenGoal
+  - Trampolines
+  - Swing Shaft
+  - Fighters:
+      - isBonus
+  - Serial Jump:
+      - hasGreenGoal
+      - hasRedGoal
+  - Cross Floors
+  - Spinning Saw
+  - Chipped Pipes:
+      - hasGreenGoal
+  - Flat Maze
+  - Guillotine
+  - Cork Screw
+  - Orbiters
+  - Twin Basin
+  - Air Hockey:
+      - tourneyBan
+ex:
+  - Charge
+  - Strata:
+      - hasGreenGoal
+  - Puzzle
+  - Giant Swing
+  - 5 Drums
+  - Free Throw:
+      - hasGreenGoal
+      - hasRedGoal
+  - Pendulums
+  - Conical Slider
+  - Construction
+  - Train Worm
+m:
+  - Centrifugal
+  - Swing Bridges:
+      - hasGreenGoal
+  - Cylinders
+  - Passage:
+      - hasGreenGoal
+  - Notch
+  - Intermittent
+  - Long Torus
+  - Spasmodic
+  - Double Twin
+  - Clock Face
+mx:
+  - Variable Width
+  - Striker:
+      - hasGreenGoal
+      - hasRedGoal
+  - Ooparts
+  - Planets:
+      - hasGreenGoal
+      - hasRedGoal
+  - Sliced Cheese
+  - 8 Seesaws
+  - Synchronized:
+      - hasGreenGoal
+      - tourneyBan
+  - Helix:
+      - hasGreenGoal
+  - Dizzy System
+  - Nintendo:
+      - tourneyBan

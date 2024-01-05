@@ -1,9 +1,18 @@
-# Pack InformationhasRedGoal
-name: Super Monkey Ball Stardust
-abbrName: stardust
-creators: 
-  - Nambo
+# Pack Information
+name: Stardust
+creator: Nambo
+srcname:
+image: https://cdn.discordapp.com/attachments/751734438328533082/1180586414061146212/TitleDraft3.1.png
 download: https://mega.nz/file/S8MAAZCb#qopcgLOShOI2sUmcOkAwTRIl1VtgyR3m2e84PjqBu0E
+video: 
+ilsheet: 
+srcpage: 
+description: Do you like massive stages? Do you like flying through the sky? Do you like never-seen-before achievement tracking? Play Stardust for a completely new take on the SMB experience! With a complete story mode and an unlockable bonus mode and custom achievements, Stardust has endless content!
+sheetid: 16c2cC1abxdVBIGS0ejiWzwTboMZrk65XO2Znj8iMaYo/301156854
+release: December 2nd, 2023
+pracModCompatible: 0
+gameId: GM2ESD
+elite: stardust
 
 # Stages
 story:
@@ -145,7 +154,7 @@ story:
     - hasRedGoal
   - Slippery Speedway:
     - hasRedGoal
-  - Break the Targets:
+  - Break the Targets!:
     - hasRedGoal
   - Closed Circuit:
     - hasRedGoal
@@ -207,143 +216,143 @@ story:
     - hasRedGoal
   - Impact:
     - hasRedGoal
-b:
-  - Bouncy Bubble Land
-  - Balloon Fleet
-  - Solar Orbit
-  - Deep Space
-  - Singularity
-  - Glitch Anomaly
-  - Meta Merger
-  - Pulsar
-  - Cosmic Genesis
-  - Stardust Haven
-bx:
-a:
-  - Hey Goobz Play SMAL:
-    - hasGreenGoal
-    - hasRedGoal
-  - Eddy's Controller
-  - Hungry
-  - Awesome Sauce
-  - Zorp Stairs
-  - His Name is Jeffery
-  - Worlds Hardest Game
-  - Dwait Epic
-  - Normal Postmodern
-  - Normal Simple
-  - Jolt Channel Die
-  - Hey Eddy Play Fun House
-  - Bruh Cubes
-  - Mess of Cubes
-  - "POV: Ur a GD Cube"
-  - Hey Steven Play Terminal Velocity
-  - Checker Carpet Slide
-  - The Slope
-  - Giant Enemy Bruh 2
-  - Your Credit Card Information:
-    - hasGreenGoal
-    - hasRedGoal
-  - Ice Castle Rink
-  - Ice Hills
-  - Pogo Puzzle
-  - Tick-Flip
-  - Freeway Grid
-  - Cookie Jump Downhill
-  - Bracelet Ice
-  - Bounce Spikes
-  - Ricochet:
-    - hasRedGoal
-  - Sugar Cone Ice
-  - Gravity Stuff Test
-  - Jello Bounce
-  - Bounce Bevel Squares
-  - Carnival Cups
-  - Bounce Edge Box
-  - Hammer Pipes
-  - Wind Chimes
-  - Loop Launch:
-    - hasRedGoal
-  - Grasshopper:
-    - hasRedGoal
-  - Brutalism:
-    - hasRedGoal
-  - Figure 8
-  - Stellar W2 Draft
-  - Chain Link
-  - Double Loop
-  - Library
-  - Hill Concept
-  - Ant Farm
-  - Auto Door Launcher
-  - Buggy Raft Concept
-  - Plank Shuffle
-  - Drop Hit Puzzle
-  - Wormhole U-Turn Puzzle
-  - Bounce Wave
-  - Frypan
-  - Revolution Concept
-  - This Was Gonna Be a Whole City
-  - Cross Fling
-  - Nambo Can't Model a Net
-  - Node Bounce
-  - Bracket Bash
-  - Pick Your Poison Test
-  - Spaghettios
-  - Strings
-  - Angle Redirect
-  - Kickflip Ice Up
-  - Slope Step Overclock
-  - Trainwreck
-  - Wormhole Bouncepad Launcher
-  - Tusk Tubes
-  - Buffer:
-    - hasRedGoal
-  - Sweepers Bunch  Park
-  - Staircase Slopes
-  - Sky Grid
-  - Rorrim Launcher
-  - Concentric Bowls
-  - Timber
-  - Comeback Run
-  - Gears
-  - Downhill Rinks
-  - Ring Helix
-  - Run-Up Bounce
-  - Key Launch
-  - Bevel Park
-  - Checker Fractal
-  - Puddles
-  - Wall Bounce Low
-  - Ice Wall Slope
-  - Pulse Diamond
-  - Candy Clog
-  - Cycle Madness
-  - Cycle Madness 2
-  - Sleep Wire
-  - Stupid Swing Bridges
-  - Bounce Mechanics
-  - Ladder Stack
-  - Optimize!
-  - Cliptimize!
-  - Get a Vertex Clip Lol
-  - Dotted Line
-  - Debug Spider
-  - Giant Enemy Bruh
-  - This Guy Eats a Banana
-  - 66 P's
-  - Fun Wire Challenge:
-    - hasGreenGoal
-    - hasRedGoal
-  - Spiky Die
-  - Lava River Hard
-  - Bubble Kaizo
-  - Rock On
-  - Cranks
-  - Precession
-ax:
-e:
-  - Monuments
-ex:
-m:
-mx:
+# b:
+#   - Bouncy Bubble Land
+#   - Balloon Fleet
+#   - Solar Orbit
+#   - Deep Space
+#   - Singularity
+#   - Glitch Anomaly
+#   - Meta Merger
+#   - Pulsar
+#   - Cosmic Genesis
+#   - Stardust Haven
+# bx:
+# a:
+#   - Hey Goobz Play SMAL:
+#     - hasGreenGoal
+#     - hasRedGoal
+#   - Eddy's Controller
+#   - Hungry
+#   - Awesome Sauce
+#   - Zorp Stairs
+#   - His Name is Jeffery
+#   - Worlds Hardest Game
+#   - Dwait Epic
+#   - Normal Postmodern
+#   - Normal Simple
+#   - Jolt Channel Die
+#   - Hey Eddy Play Fun House
+#   - Bruh Cubes
+#   - Mess of Cubes
+#   - "POV: Ur a GD Cube"
+#   - Hey Steven Play Terminal Velocity
+#   - Checker Carpet Slide
+#   - The Slope
+#   - Giant Enemy Bruh 2
+#   - Your Credit Card Information:
+#     - hasGreenGoal
+#     - hasRedGoal
+#   - Ice Castle Rink
+#   - Ice Hills
+#   - Pogo Puzzle
+#   - Tick-Flip
+#   - Freeway Grid
+#   - Cookie Jump Downhill
+#   - Bracelet Ice
+#   - Bounce Spikes
+#   - Ricochet:
+#     - hasRedGoal
+#   - Sugar Cone Ice
+#   - Gravity Stuff Test
+#   - Jello Bounce
+#   - Bounce Bevel Squares
+#   - Carnival Cups
+#   - Bounce Edge Box
+#   - Hammer Pipes
+#   - Wind Chimes
+#   - Loop Launch:
+#     - hasRedGoal
+#   - Grasshopper:
+#     - hasRedGoal
+#   - Brutalism:
+#     - hasRedGoal
+#   - Figure 8
+#   - Stellar W2 Draft
+#   - Chain Link
+#   - Double Loop
+#   - Library
+#   - Hill Concept
+#   - Ant Farm
+#   - Auto Door Launcher
+#   - Buggy Raft Concept
+#   - Plank Shuffle
+#   - Drop Hit Puzzle
+#   - Wormhole U-Turn Puzzle
+#   - Bounce Wave
+#   - Frypan
+#   - Revolution Concept
+#   - This Was Gonna Be a Whole City
+#   - Cross Fling
+#   - Nambo Can't Model a Net
+#   - Node Bounce
+#   - Bracket Bash
+#   - Pick Your Poison Test
+#   - Spaghettios
+#   - Strings
+#   - Angle Redirect
+#   - Kickflip Ice Up
+#   - Slope Step Overclock
+#   - Trainwreck
+#   - Wormhole Bouncepad Launcher
+#   - Tusk Tubes
+#   - Buffer:
+#     - hasRedGoal
+#   - Sweepers Bunch Park
+#   - Staircase Slopes
+#   - Sky Grid
+#   - Rorrim Launcher
+#   - Concentric Bowls
+#   - Timber
+#   - Comeback Run
+#   - Gears
+#   - Downhill Rinks
+#   - Ring Helix
+#   - Run-Up Bounce
+#   - Key Launch
+#   - Bevel Park
+#   - Checker Fractal
+#   - Puddles
+#   - Wall Bounce Low
+#   - Ice Wall Slope
+#   - Pulse Diamond
+#   - Candy Clog
+#   - Cycle Madness
+#   - Cycle Madness 2
+#   - Sleep Wire
+#   - Stupid Swing Bridges
+#   - Bounce Mechanics
+#   - Ladder Stack
+#   - Optimize!
+#   - Cliptimize!
+#   - Get a Vertex Clip Lol
+#   - Dotted Line
+#   - Debug Spider
+#   - Giant Enemy Bruh
+#   - This Guy Eats a Banana
+#   - 66 P's
+#   - Fun Wire Challenge:
+#     - hasGreenGoal
+#     - hasRedGoal
+#   - Spiky Die
+#   - Lava River Hard
+#   - Bubble Kaizo
+#   - Rock On
+#   - Cranks
+#   - Precession
+# ax:
+# e:
+#   - Monuments
+# ex:
+# m:
+# mx:

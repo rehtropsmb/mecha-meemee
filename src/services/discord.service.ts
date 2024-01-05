@@ -9,17 +9,21 @@ import {
 } from 'discord.js';
 import { EnvService } from './env.service';
 import { CommandService } from './command.service';
+import { EliteService } from './elite.service';
 
 @injectable()
 export class DiscordService {
     private envService: EnvService;
     private commandService: CommandService;
+    // private eliteService: EliteService;
     constructor(
         @inject(EnvService) envService,
         @inject(CommandService) commandService
+        // @inject(EliteService) eliteService
     ) {
         this.envService = envService;
         this.commandService = commandService;
+        // this.eliteService = eliteService;
     }
 
     public async init(): Promise<void> {
@@ -39,14 +43,12 @@ export class DiscordService {
         });
 
         client.on(Events.MessageCreate, async (message: Message) => {
-            console.log(message.content);
             this.commandService.handleDiscordCommand(message);
         });
 
         client.on(
             Events.InteractionCreate,
             async (interaction: Interaction) => {
-                console.log(interaction.id);
                 this.commandService.handleDiscordInteraction(interaction);
             }
         );

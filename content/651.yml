@@ -1,0 +1,154 @@
+# Pack Information
+name: "651"
+srcname: Super Monkey Ball 651
+creator: scrap651
+image: https://cdn.discordapp.com/attachments/1067288716520984692/1082911441868296232/image_2.png
+download: https://mega.nz/file/McN2VI4S#p8pkonzW-iO4HsWwLgRGzwXx2Li3Jfk4-hTK6nV0SJY
+video: https://www.youtube.com/watch?v=tlrRdeBroIs
+ilsheet: https://docs.google.com/spreadsheets/d/16c2cC1abxdVBIGS0ejiWzwTboMZrk65XO2Znj8iMaYo/edit#gid=471722993
+srcpage: https://www.speedrun.com/smb651
+description: This pack features a complete Story Mode with a unique soundtrack by Jim Nopedie. Stages often spin a quick challenge or clever puzzle out of some simple core concept, with a design philosophy often described as elegant and to-the-point. With an intense difficulty spike in World 10, players often recommend you finish your casual playthrough at the end of World 9 and treat World 10 as a bonus kaizo challenge to tackle after gaining much more experience.
+sheetid: 16c2cC1abxdVBIGS0ejiWzwTboMZrk65XO2Znj8iMaYo/471722993
+release: July 7th, 2020
+pracModCompatible: 0
+gameId: GM2E8P
+elite: "651"
+
+# Stages
+story:
+  - Nest
+  - Paper
+  - Meadow
+  - Container
+  - Screen Tearing
+  - Restless
+  - Chills
+  - Rerun
+  - Knot
+  - Ring Attack
+  - Jump Simulator
+  - Capsule
+  - Bunkers
+  - Silly Slalom
+  - Stencil
+  - Dome
+  - Fun House:
+    - hasGreenGoal
+  - Beads
+  - Peaking
+  - Crystal Cave Museum
+  - Commitment:
+    - hasGreenGoal
+  - Bleachers
+  - Corner Block
+  - Saw
+  - Stamps
+  - Slicer
+  - Gyration:
+    - hasGreenGoal
+  - Waves:
+    - hasGreenGoal
+  - Hidden Room
+  - Descent
+  - Crosshair
+  - Measuring Spoons
+  - Launcher:
+    - hasGreenGoal
+  - Feedback Loop:
+    - hasGreenGoal
+  - Trypophobia
+  - Collectathon
+  - Scoop
+  - Tail
+  - Valves:
+    - hasRedGoal
+  - Waveform
+  - Staircase
+  - Railroad
+  - Raft
+  - Area
+  - Custom Road:
+    - hasGreenGoal
+    - hasRedGoal
+  - Repellent
+  - Changeover:
+    - hasGreenGoal
+  - Ribbon
+  - Quadripartite
+  - Tides
+  - Wormhole Practice:
+    - hasGreenGoal
+  - Timing
+  - Mystery Box:
+    - hasGreenGoal
+  - Return
+  - Steps
+  - Drop In:
+    - hasGreenGoal
+  - Volte-Face
+  - Antigravity
+  - Clothesline:
+    - hasGreenGoal
+  - Architect
+  - Cards
+  - Valleys
+  - Gravity Jumper
+  - Reflection
+  - Trap Doors
+  - Iced Hive
+  - Device
+  - Pour
+  - Pull
+  - Mini Map Assist
+  - Axis Maze
+  - Warp Pipes:
+    - hasGreenGoal
+  - Turn
+  - Overcorrection
+  - Sewing
+  - Jumpscare
+  - Oscillating Overpass
+  - I-Beams
+  - Warp Heights:
+    - hasGreenGoal
+    - hasRedGoal
+  - Checker Roll
+  - Elevators
+  - Distortion
+  - Picture Frames
+  - Network
+  - Lava River
+  - Stream:
+    - hasRedGoal
+  - Ladder
+  - Pacing
+  - Platformer
+  - Technique
+  - Sleekhopper HD
+  - Smile
+  - Crank
+  - Birds
+  - Unlock
+  - Frame Windows
+  - Desync
+  - Exam-651
+  - Stress Test
+  - Antlers
+b:
+bx:
+  - (empty)
+  - (empty)
+  - (empty)
+  - (empty)
+  - (empty)
+  - Slope Mechanics
+a:
+ax:
+e:
+  - (empty)
+  - (empty)
+  - (empty)
+  - Lucky WR
+ex:
+m:
+mx:

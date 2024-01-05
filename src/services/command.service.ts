@@ -6,12 +6,15 @@ import {
     TwitchArgs,
 } from '../interfaces/command.interface';
 import eliteCommand from '../commands/elite';
-import oopsterCommand from '../commands/oopster';
 import { Interaction, Message } from 'discord.js';
+import lenientCommand from '../commands/lenient';
 
 @injectable()
 export class CommandService {
-    private commands: Command[] = [oopsterCommand, eliteCommand];
+    private commands: Command[] = [
+        eliteCommand,
+        lenientCommand,
+    ];
 
     private discordCommands: any = {};
     private twitchCommands: any = {};
@@ -74,22 +77,21 @@ export class CommandService {
     }
 
     public handleTwitchCommand(message: string, user: string, channel: string) {
-        if (!message.startsWith('-')) {
-            return;
-        }
+        console.log(message);
         const command = message.split(' ')[0].substring(1);
         const args = message.substring(
             message.indexOf(command) + command.length + 1
         );
+        console.log(command);
+        console.log(args);
 
         if (!this.twitchCommands[command]) {
             return;
         }
 
-        this.twitchCommands[command].twitchExecute({
+        return this.twitchCommands[command].twitchExecute({
             command: command,
             args: args,
-            reply: () => {},
             user: user,
             channel: channel,
         } as TwitchArgs);

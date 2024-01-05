@@ -45,27 +45,39 @@ export class TwitchService {
             },
             channels: this.channels,
         });
-
-        this.twitch.connect();
         this.twitch.on('logon', () => {
             console.log('Twitch Client Connected');
+            console.log(`Connected to ${this.channels.length} Channels.`);
         });
-        this.twitch.on('message', (channel, user, message, self) => {
+        this.twitch.on('message', async (channel, user, message, self) => {
             if (self) return;
-            this.commandService.handleTwitchCommand(message, user, channel);
+            if (!message.startsWith('-')) {
+                return;
+            }
+            const result = await this.commandService.handleTwitchCommand(
+                message,
+                user,
+                channel
+            );
+            if (result) {
+                this.sendMessage(channel, result);
+            }
         });
+
+        this.twitch.connect();
     }
 
-    public sendMessage(channelName: string, messages: string[]) {
+    public sendMessage(channelName: string, message: string) {
         if (!channelName.startsWith('#')) {
             channelName = `#${channelName}`;
         }
         // const messages = this.removeEmoji(message);
-        messages.forEach((block, index) => {
-            setTimeout(() => {
-                this.twitch.say(channelName, block);
-            }, index * 2000);
-        });
+        // messages.forEach((block, index) => {
+        //     console.log(block);
+        //     setTimeout(() => {
+        this.twitch.say(channelName, message);
+        //     }, index * 2000);
+        // });
     }
 
     public joinChannel(channel: string): void {

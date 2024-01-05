@@ -1,0 +1,178 @@
+# Pack Information
+name: SMB1
+fullname: Super Monkey Ball
+srcname: Super Monkey Ball
+creator: Amusement Vision
+image: https://tcrf.net/images/thumb/7/70/Super_Monkey_Ball-title.png/320px-Super_Monkey_Ball-title.png
+download: 
+video: https://youtu.be/ncf-M54azhA
+ilsheet: https://docs.google.com/spreadsheets/d/1KoneeqJzheHFYapQ_JfyxL9sI0X8_BE7ZEVMZt0t0bI/edit#gid=0
+srcpage: https://www.speedrun.com/supermonkeyball
+description: This is the vanilla version of Super Monkey Ball, the original ball rolling party game released for Nintedo Gamecube in 2001. Includes the quarter-munching Challenge Mode of the original Monkey Ball arcade cabinet, with some extra exclusive stages in the hard-to-unlock master section. There are also 6 multiplayer minigames, all of which are beloved by fans as some of the best party games in the series.
+sheetid: 1KoneeqJzheHFYapQ_JfyxL9sI0X8_BE7ZEVMZt0t0bI/0/1157182902
+alias:
+  - smb
+  - monkey ball
+  - super monkey ball 1
+  - monkey ball 1
+release: September 14th, 2001
+pracModCompatible: 1
+gameId: GMBE8P
+elite: smb
+
+# Stages
+story:
+b:
+  - Plain
+  - Diamond:
+      - hasGreenGoal
+  - Hairpin
+  - Wide Bridge
+  - Bonus Basic:
+      - lacksBlueGoal
+      - isBonus
+  - Slopes
+  - Steps
+  - Blocks
+  - Jump Single
+  - Exam-A
+bx:
+  - Blur Bridge
+  - Hitter
+  - AV Logo
+a:
+  - Bump
+  - Walking
+  - Repulse
+  - Narrow Bridge
+  - Bonus Basic:
+      - lacksBlueGoal
+      - isBonus
+  - Break:
+      - hasGreenGoal
+  - Curves
+  - Downhill
+  - Blocks Slim
+  - Bonus Wave:
+      - lacksBlueGoal
+      - isBonus
+  - Choice:
+      - hasGreenGoal
+  - Bowl
+  - Jumpies
+  - Stoppers
+  - Floor Bent
+  - Conveyor
+  - Exam-B
+  - Chaser:
+      - hasGreenGoal
+      - hasRedGoal
+  - Jump Double
+  - Bonus Grid:
+      - lacksBlueGoal
+      - isBonus
+  - Middle Jam
+  - Ant Lion
+  - Collapse
+  - Swing Bar
+  - Labyrinth:
+      - hasGreenGoal
+  - Spiral
+  - Wavy Jump
+  - Spiky
+  - Unrest
+  - Polar
+ax:
+  - Blur Bridge
+  - Hard Hitter
+  - Puzzle
+  - AV Logo
+  - Polar Large
+e:
+  - Ruin
+  - Branch:
+      - hasRedGoal
+  - Overturn:
+      - hasGreenGoal
+  - Excursion
+  - Bonus Basic:
+      - lacksBlueGoal
+      - isBonus
+  - Dodecagon
+  - Exam-C
+  - Skeleton
+  - Tracks
+  - Bonus Wave:
+      - lacksBlueGoal
+      - isBonus
+  - Downhill Hard
+  - Gears
+  - Destruction
+  - Invasion
+  - Diving
+  - Floor Slant
+  - Tram
+  - Swing Bar Long
+  - Paper Work
+  - Bonus Grid:
+      - lacksBlueGoal
+      - isBonus
+  - Twin Attacker
+  - Sega Logo
+  - Snake
+  - Wind
+  - Windy Slide
+  - Fall Down
+  - Twin Cross
+  - Spiral Hard
+  - Conveyor Parts
+  - Bonus Bumpy:
+      - lacksBlueGoal
+      - isBonus
+  - Gaps
+  - Curvature
+  - Ant Lion Super
+  - Drum
+  - Twister
+  - Speedy Jam
+  - Quake
+  - Cassiopea
+  - Pirates
+  - Bonus Hunting:
+      - isBonus
+  - Bowl Open
+  - Checker:
+      - hasGreenGoal
+      - hasRedGoal
+  - Carpet
+  - Ridge
+  - Mixer
+  - Rings:
+      - hasGreenGoal
+  - Stairs
+  - Clover
+  - Coffee Cup
+  - Metamorphosis
+ex:
+  - Blur Bridge
+  - Breathe
+  - Hard Hitter
+  - Ferris Wheel
+  - Factory
+  - Curl Pipe
+  - Magic Hand
+  - AV Logo
+  - Sanctuary
+  - Daa Loo Maa
+m:
+  - Wave Master
+  - Fan Master
+  - Stamina Master
+  - Spring Master
+  - Dance Master
+  - Roll Master
+  - Edge Master
+  - Dodge Master
+  - Bridge Master
+  - Monkey Master
+mx:

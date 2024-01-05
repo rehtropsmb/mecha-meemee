@@ -1,0 +1,640 @@
+# Pack Information
+name: Deluxe
+fullname: Super Monkey Ball Deluxe
+srcname: Super Monkey Ball Deluxe in SMB2
+creator: Amusement Vision
+video: https://youtu.be/UT42vxioqZ8
+image: https://cdn.discordapp.com/attachments/1102332950386839672/1129462652658270328/asasaasasasas.png
+description: This is the vanilla version of Super Monkey Ball Deluxe, a combination of SMB1, SMB2, and some exclusive stages, released for PS2 and Xbox. A more polished and accessible unofficial Gamecube port also exists as a romhack called "SMB Deluxe in 2," which was ported by a team of creators led by BrandonSMB (this port is listed as the pack download). Deluxe's exclusive stages were originally intended for a cancelled SMB3, and their designs show a trend of very large-scale geometry and lots of massive mazes.
+sheetid: 1KoneeqJzheHFYapQ_JfyxL9sI0X8_BE7ZEVMZt0t0bI/871895105/1010496415/1763273746
+download: https://mega.nz/#!uKBhTSjQ!acj8VqEDLFrZVBnpZwGxjEe5tBSuCy7qtdyKrwzIjYY
+ilsheet: https://docs.google.com/spreadsheets/d/1KoneeqJzheHFYapQ_JfyxL9sI0X8_BE7ZEVMZt0t0bI/edit#gid=871895105
+srcpage: https://www.speedrun.com/smbdxin2
+alias:
+  - dx
+  - dxin2
+  - gamecube deluxe
+  - gamecube dx
+  - gc dx
+  - deluxe for gamecube
+  - deluxe for gc
+  - dx for gc
+release: March 15th, 2005
+pracModCompatible: 0
+gameId: GM2EDX
+elite: dx
+
+# Stages
+story20:
+  - Simple
+  - Diamond:
+    - hasGreenGoal
+  - Edge
+  - Escalators
+  - Bumpy
+  - Hairpin
+  - Wide Bridge
+  - Conveyers
+  - Serpentine
+  - Floaters
+  - Tub
+  - Swirl
+  - Windy Slide
+  - Slopes
+  - Spinning Top
+  - Steps
+  - Dormant Pits
+  - Curve Bridge
+  - Hollow
+  - Switches:
+    - hasGreenGoal
+  - Banks
+  - Blocks
+  - Composition
+  - Dynamo
+  - Hoppers
+  - Jump Single
+  - Exam-A
+  - Bumpy Check
+  - Lunchbox
+  - Swell
+  - Gravity Slider
+  - Gutter
+  - Inchworms:
+    - hasGreenGoal
+    - hasRedGoal
+  - Bump
+  - Totalitarianism
+  - Walking
+  - Jolt Channel
+  - Alternative
+  - Eaten Floor
+  - Coaster
+  - Organic Form
+  - Repulse
+  - Intertial
+  - Octagonal
+  - Stepping Stones
+  - Narrow Bridge
+  - Break:
+    - hasGreenGoal
+  - U.R.L.
+  - Sewer
+  - Mad Rings:
+    - hasGreenGoal
+    - hasRedGoal
+  - Curvy Options
+  - Arc Bridges
+  - Twist & Spin
+  - Curves
+  - Cascade
+  - Downhill
+  - Veer Field
+  - Junction:
+    - hasGreenGoal
+  - Reversible Gear
+  - Dribbles
+  - Pro Skaters:
+    - hasGreenGoal
+  - Blocks Slim
+  - Jump Ramp
+  - Hounds Tooth
+  - Beehive
+  - Choice:
+    - hasGreenGoal
+  - Bowl
+  - Triangle Holes
+  - D.N.A.:
+    - hasGreenGoal
+  - Launchers:
+    - hasGreenGoal
+  - Randomizer:
+    - hasGreenGoal
+    - hasRedGoal
+  - Building
+  - Coin Slots:
+    - hasGreenGoal
+  - Jumpies
+  - Seesaw Bridges
+  - Stoppers
+  - Scrolls
+  - Arthropod
+  - Giant Comb
+  - Dynamic Maze
+  - Wormhole
+  - Floor Bent
+  - Free Fall
+  - Melting Pot
+  - Exam-B
+  - Mad Shuffle
+  - Bead Screen
+  - Jump Double
+  - Jump Machine:
+    - hasGreenGoal
+    - hasRedGoal
+  - Middle Jam
+  - Zigzag Slope
+  - Ant Lion
+  - Tower
+  - Collapse
+  - Toggle
+  - Swing Bar
+  - Fluctuation
+  - Labyrinth:
+    - hasGreenGoal
+  - Conveyor
+  - Chaser:
+    - hasGreenGoal
+    - hasRedGoal
+  - Combination
+  - Spiral
+  - Punched Seesaws:
+    - hasGreenGoal
+  - Opera
+  - Spiky
+  - Brandished
+  - Tiers:
+    - hasGreenGoal
+    - hasRedGoal
+  - Polar
+  - Cliffs
+  - Ruin
+  - Narrow Peaks
+  - Branch:
+    - hasRedGoal
+  - Detour:
+    - hasGreenGoal
+  - Overturn:
+    - hasGreenGoal
+  - Switch Inferno
+  - Excursion
+  - Folders
+  - Dodecagon
+  - Wavy Jump
+  - Unrest
+  - Spiral Bridge
+  - Exam-C
+  - Wavy Option
+  - Obstacle
+  - Tracks
+  - Domino
+  - Sieve
+  - Gears
+  - Flock
+  - Destruction
+  - Double Spiral
+  - Invasion
+  - Hierarchy
+  - Diving
+  - 8 Bracelets:
+    - hasGreenGoal
+    - hasRedGoal
+  - Floor Slant
+  - Quick Turn
+  - Tram
+  - Skeleton
+  - Downhill Hard
+  - Pistons
+  - Swing Bar Long
+  - Soft Cream
+  - Momentum
+  - Twin Attacker
+  - Entangled Path:
+    - hasGreenGoal
+  - Totters
+  - Snake
+  - Vortex:
+    - hasGreenGoal
+  - Wind
+  - Warp:
+    - hasGreenGoal
+  - Sliders
+  - Trampolines
+  - Fall Down
+  - Sing Shaft
+  - Twin Cross
+  - Linear Seesaws
+  - Spiral Hard
+  - Paper Work
+  - Sega Logo
+  - Serial Jump:
+    - hasGreenGoal
+    - hasRedGoal
+  - Conveyor Parts
+  - Cross Floors
+  - Spinning Saw
+  - Curvature
+  - Chipped Pipes:
+    - hasGreenGoal
+  - Flat Maze
+  - Drum
+  - Guillotine
+  - Twister
+  - Cork Screw
+  - Speedy Jam
+  - Orbiters
+  - Quake
+  - Twin Basin
+  - Cassiopeia
+  - Air Hockey
+  - Pirates
+  - Gaps
+  - Ant Lion Super
+  - Training
+  - Bowl Open
+  - Gimmick
+  - Mountain
+  - Carpet
+  - Disorder
+  - 3-D Maze
+  - Mixer
+  - Crazy Maze
+  - Rings:
+    - hasGreenGoal
+  - Postmodern
+  - Stairs
+  - Revolution
+  - Clover
+  - Invisible
+  - Coffee Cup
+  - Created By
+  - Metamorphosis
+  - Checker:
+    - hasGreenGoal
+    - hasRedGoal
+  - Ridge
+b:
+  - Plain
+  - Diamond:
+    - hasGreenGoal
+  - Hairpin
+  - Wide Bridge
+  - Simple
+  - Hollow
+  - Bumpy
+  - Switches:
+    - hasGreenGoal
+  - Floaters
+  - Bonus Basic:
+    - isBonus
+  - Edge
+  - Escalators
+  - Serpentine
+  - Swirl
+  - Dormant Pits
+  - Composition
+  - Dynamo
+  - Lunchbox
+  - Gutter
+  - Tub:
+    - isBonus
+  - Slopes
+  - Steps
+  - Blocks
+  - Jump Single
+  - Exam-A
+  - Tub
+  - Sliders
+  - Spinning Top
+  - Curve Bridge
+  - Scabrous:
+    - isBonus
+  - Jolt Channel
+  - Intertial
+  - Octagonal
+  - Sewer
+  - Arc Bridges
+  - Veer Field
+  - Teeter
+  - Stream
+  - Catwalk
+  - Catapult
+bx:
+  - Blur Bridge
+  - Hitter
+  - AV Logo
+  - Rhombus
+  - Buoy
+  - Conveyers
+  - Bumpy Check
+  - Alternative
+  - Junction:
+    - hasGreenGoal
+  - Bead Screen
+  - Coil Ramp
+  - Millefeuille
+  - Waver:
+    - hasGreenGoal
+  - Fat Seesaw
+  - Treads
+  - Fluctuations
+  - Folders
+  - Quick Turn
+  - Linear Seesaws
+  - Birth
+a:
+  - Bump
+  - Walking
+  - Repulse
+  - Narrow Bridge
+  - Break:
+    - hasGreenGoal
+  - Curves
+  - Downhill
+  - Blocks Slim
+  - Choice:
+    - hasGreenGoal
+  - Bonus Wave:
+    - isBonus
+  - Jump Ramp
+  - Hounds Tooth
+  - D.N.A.:
+    - hasGreenGoal
+  - Building
+  - Scrolls
+  - Cliff
+  - Concentric
+  - Stadium
+  - Dungeon
+  - Bonus Grid:
+    - isBonus
+  - Banks
+  - Eaten Floor
+  - Hoppers
+  - Coaster
+  - Swell
+  - Gravity Slider
+  - Inchworms:
+    - hasGreenGoal
+    - hasRedGoal
+  - Totalitarianism
+  - Organic Form
+  - Board Park:
+    - isBonus
+  - Bowl
+  - Jumpies
+  - Stoppers
+  - Floor Bent
+  - Conveyor
+  - Exam-B
+  - Chaser:
+    - hasGreenGoal
+    - hasRedGoal
+  - Jump Double
+  - Middle Jam
+  - Leveler:
+    - isBonus
+  - Reversible Gear
+  - Stepping Stones
+  - Dribbles
+  - U.R.L.
+  - Mad Rings:
+    - hasGreenGoal
+    - hasRedGoal
+  - Curvy Options
+  - Twister
+  - Cascade
+  - Pro Skaters:
+    - hasGreenGoal
+  - Rampage:
+    - isBonus
+  - Ant Lion
+  - Collapse
+  - Swing Bar
+  - Labyrinth:
+    - hasGreenGoal
+  - Spiral
+  - Wavy Jump
+  - Spiky
+  - Unrest
+  - Polar
+  - Paraboloid:
+    - isBonus
+  - Giant Comb
+  - Beehive
+  - Dynamic Maze
+  - Triangle Holes
+  - Launchers:
+    - hasGreenGoal
+  - Randomizer:
+    - hasGreenGoal
+    - hasRedGoal
+  - Coin Slots:
+    - hasGreenGoal
+  - Seesaw Bridges
+  - Arthropod
+  - Spatiotemporal
+ax:
+  - Blur Bridge
+  - Hard Hitter
+  - Puzzle
+  - AV Logo
+  - Polar Large
+  - Auto Doors
+  - Heavy Sphere
+  - Stagger
+  - U.F.O.
+  - Ring Bridges
+  - Chaos
+  - Tilt Maze
+  - Fractal
+  - Hills:
+    - hasGreenGoal
+  - Dodge Maze
+  - Domes
+  - Amida Lot
+  - Long Slider
+  - Grid Bridge
+  - Teapot
+e:
+  - Ruin
+  - Branch:
+    - hasRedGoal
+  - Overturn
+  - Excursion
+  - Dodecagon
+  - Exam-C
+  - Skeleton
+  - Tracks
+  - Downhill Hard
+  - Bonus Bumpy:
+    - isBonus
+  - Wormhole
+  - Free Fall:
+    - hasGreenGoal
+  - Melting Pot
+  - Mad Shuffle
+  - Jump Machine:
+    - hasGreenGoal
+    - hasRedGoal
+  - Zigzag Slope
+  - Tower
+  - Toggle
+  - Combination
+  - Bonus Hunting:
+    - isBonus
+  - Gears
+  - Destruction
+  - Invasion
+  - Diving
+  - Floor Slant
+  - Tram
+  - Swing Bar Long
+  - Paper Work
+  - Twin Attacker
+  - Partition:
+    - isBonus
+  - Punched Seesaws:
+    - hasGreenGoal
+  - Opera
+  - Brandished
+  - Tiers:
+    - hasGreenGoal
+    - hasRedGoal
+  - Cliffs
+  - Narrow Peaks
+  - Detour:
+    - hasGreenGoal
+  - Switch Inferno
+  - Spiral Bridge
+  - Pachinko:
+    - isBonus
+  - Sega Logo
+  - Snake
+  - Wind
+  - Windy Slide
+  - Fall Down
+  - Twin Cross
+  - Spiral Hard
+  - Conveyor Parts
+  - Gaps
+  - Earthquake:
+    - isBonus
+  - Wavy Option
+  - Obstacle
+  - Domino
+  - Sieve
+  - Flock
+  - Double Spiral
+  - Hierarchy
+  - 8 Bracelets:
+    - hasGreenGoal
+    - hasRedGoal
+  - Pistons
+  - Banana Hunting:
+    - isBonus
+  - Curvature
+  - Ant Lion Super
+  - Drum
+  - Twist & Spin
+  - Speedy Jam
+  - Quake
+  - Cassiopeia
+  - Pirates
+  - Bowl Open
+  - Fighters:
+    - isBonus
+  - Soft Cream
+  - Momentum
+  - Entangled Path:
+    - hasGreenGoal
+  - Totters
+  - Vortex:
+    - hasGreenGoal
+  - Warp:
+    - hasGreenGoal
+  - Trampolines
+  - Swing Shaft
+  - Serial Jump:
+    - hasGreenGoal
+    - hasRedGoal
+  - Shelter:
+    - isBonus
+  - Checker:
+    - hasGreenGoal
+    - hasRedGoal
+  - Carpet
+  - Ridge
+  - Mixer
+  - Rings:
+    - hasGreenGoal
+  - Stairs
+  - Clover
+  - Coffee Cup
+  - Metamorphosis
+  - Mobius:
+    - isBonus
+  - Cross Floors
+  - Spinning Saw
+  - Chipped Pipes:
+    - hasGreenGoal
+  - Flat Maze
+  - Guillotine
+  - Cork Screw
+  - Orbiters
+  - Twin Basin
+  - Air Hockey
+  - Asterisk
+ex:
+  - Charge
+  - Strata:
+    - hasGreenGoal
+  - Square Dance
+  - Giant Swing
+  - 5 Drums
+  - Free Throw:
+    - hasGreenGoal
+    - hasRedGoal
+  - Pendulums
+  - Concial Slider
+  - Construction
+  - Train Worm
+  - Blur Bridge
+  - Breathe
+  - Hard Hitter
+  - Ferris Wheel
+  - Factory
+  - Curl Pipe
+  - Magic Hand
+  - AV Logo
+  - Sanctuary
+  - Daa Loo Maa
+m:
+  - Centrifugal
+  - Swing Bridges:
+    - hasGreenGoal
+  - Cylinders
+  - Passage:
+    - hasGreenGoal
+  - Notch
+  - Intermittent
+  - Long Torus
+  - Spasmodic
+  - Double Twin
+  - Clock Face
+  - Wave Master
+  - Fan Master
+  - Stamina Master
+  - Spring Master
+  - Dance Master
+  - Roll Master
+  - Edge Master
+  - Dodge Master
+  - Bridge Master
+  - Monkey Master
+mx:
+  - Variable Width
+  - Striker:
+    - hasGreenGoal
+    - hasRedGoal
+  - Ooparts
+  - Planets:
+    - hasRedGoal
+  - Sliced Cheese
+  - 8 Seesaws
+  - Synchronized:
+    - hasGreenGoal
+  - Helix:
+    - hasGreenGoal
+  - Dizzy System
+  - Destiny

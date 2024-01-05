@@ -1,0 +1,146 @@
+# Pack Information
+name: Gaiden
+srcname: Super Monkey Ball Gaiden
+creator: Cutsman
+image: https://cdn.discordapp.com/attachments/1067288716520984692/1082917932620861490/image_4.png
+download: https://mega.nz/file/taYiVC4S#DRr9ulDEM526IySEehGkgJI-vpbUPvJrY8UNnRccOcY
+video: https://www.youtube.com/watch?v=mC8vfOE6-Zs
+ilsheet: https://docs.google.com/spreadsheets/d/16c2cC1abxdVBIGS0ejiWzwTboMZrk65XO2Znj8iMaYo/edit#gid=301156854
+srcpage: https://www.speedrun.com/gaiden
+description: Features a complete Story Mode as well as 11 stages in Master. It was one of the first packs to experiment with larger and more complex stage design, and it is well known for its long gauntlet-style stages. The pack was very well recieved by the community, and Gaiden has one of the most competitive speedrunning scenes of any custom pack! The first stage in master is a padlock puzzle, which can be completed after beating the game's story mode to unlock the pack's difficult master extra mode.
+sheetid: 16c2cC1abxdVBIGS0ejiWzwTboMZrk65XO2Znj8iMaYo/301156854
+release: June 23rd, 2020
+pracModCompatible: 0
+gameId: GM2EGD
+elite: gaiden
+
+# Stages
+story:
+  - Ease
+  - Interceptor
+  - Cornercraft:
+    - hasGreenGoal
+  - Expedition
+  - Flippers
+  - Pulse:
+    - hasRedGoal
+  - Slopeshift
+  - Safety Pipe
+  - Stair Valley
+  - Margin
+  - Hidden Hills
+  - Emergency Brake
+  - Landing Gear
+  - Parkour
+  - Whisk
+  - Kickflip
+  - Multi Spring
+  - Cubbyholes
+  - Unwind
+  - Shrink Ray
+  - Cycle Hit
+  - Boost Bridges
+  - Suspension
+  - Quaketray
+  - Aligner
+  - Master of None
+  - Ringfield
+  - Trinity
+  - Battle Royale
+  - Actual Guillotine:
+    - hasRedGoal
+  - Mandoline
+  - Tug
+  - Whirlers
+  - Diaphragm
+  - Roundabout
+  - Catenary
+  - Pattern Prism
+  - Turbine
+  - Piercers
+  - Emitter
+  - Dragonfly
+  - Sway:
+    - hasGreenGoal
+    - hasRedGoal
+  - Jumpplex
+  - Drop of Doom
+  - Perimeter:
+    - hasRedGoal
+  - Rotary
+  - Snakeskin
+  - Range:
+    - hasGreenGoal
+    - hasRedGoal
+  - Departure
+  - Warp Dreams
+  - Tripwire
+  - Equilibrium
+  - Rook
+  - Rigidify
+  - Binary Launchers
+  - Pyramid Run
+  - Assembly
+  - Circus
+  - Seismic
+  - Slot Machine
+  - Ikaruga
+  - Focus Breaker
+  - Polarity
+  - Carpets
+  - Phantasm
+  - Upstream
+  - Rebuild
+  - Siege
+  - Albatross
+  - Gaokao
+  - Lock On
+  - Recoil
+  - Derelict
+  - Gradient Descent
+  - Raze
+  - Gyroscope
+  - Revision
+  - Painted Pipe
+  - Visionary
+  - Factory
+  - Demolition
+  - Twisty Triad
+  - Spinways:
+    - hasGreenGoal
+  - Strum
+  - Antagonizer
+  - Axle
+  - Colossus
+  - Fallout Zone
+  - Lightspeed
+  - Apparatus
+  - Exodus
+  - Pandora's Box
+  - Genesis
+  - Ausdauer
+  - Intermezzo
+  - Trick Room
+  - Ouroboros
+  - Red Sea
+  - Shadow Tag
+  - Curtain Call
+b:
+bx:
+a:
+ax:
+e:
+ex:
+m:
+  - Enigma
+mx:
+  - Master of All
+  - Maelstrom
+  - Tartarus
+  - Sisyphus
+  - Acheron
+  - Styx
+  - Pride
+  - Babel
+  - Gauntlet
+  - The Grand Finale

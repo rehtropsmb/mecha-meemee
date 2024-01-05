@@ -1,12 +1,12 @@
-import { Message, User } from 'discord.js';
+import { Interaction, Message, User } from 'discord.js';
 
 export interface Command {
     // command aliases
     aliases: string[];
     // execution functions
-    discordExecute?: Function;
-    twitchExecute?: Function;
-    discordInteraction?: Function;
+    discordExecute?: (discordArgs: DiscordArgs) => void;
+    twitchExecute?: (twitchArgs: TwitchArgs) => Promise<string>;
+    discordInteraction?: (interaction: Interaction) => void;
     // help text
     description: string[];
     arguments: string[];
@@ -23,7 +23,6 @@ export interface DiscordArgs {
 export interface TwitchArgs {
     command: string;
     args: string;
-    reply: Function;
     user: string;
     channel: string;
 }

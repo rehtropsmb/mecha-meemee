@@ -1,0 +1,180 @@
+# Pack Information
+name: Launch!
+srcname: Super Monkey Ball Launch
+creator: Dyrude
+video: https://www.youtube.com/watch?v=sVUVm1KnJaU
+sheetid: 16c2cC1abxdVBIGS0ejiWzwTboMZrk65XO2Znj8iMaYo/2030896024
+image: https://pbs.twimg.com/media/FlQuRioWAAUp3oR?format=jpg&name=4096x4096
+ilsheet: https://docs.google.com/spreadsheets/d/16c2cC1abxdVBIGS0ejiWzwTboMZrk65XO2Znj8iMaYo/edit#gid=2030896024
+srcpage: https://www.speedrun.com/super_monkey_ball_launch?h=Story_Mode_All_Levels-Pauseless&x=5dwv51gk-wl3d71y8.q75vg5p1
+description: Features a complete story mode which is followed up by 20 stages in Master/Master Extra, with some bonus unlockable kaizo stages tied to secret goals in each world. This pack's difficulty ramps up fast and reaches higher ends than most other full packs. Dyrude's style involves a mix of speed and precision obstacle courses, with the pack's lategame testing heavy endurance and tight movement on animated objects.
+download: https://mega.nz/file/3lQQ0Dxb#Y89-X8vB0b2jgBFXrQVfP9d3PSvS_Bak-1yivKvLsIo
+release: February 17th, 2023
+pracModCompatible: 0
+gameId: GM2ELD
+elite: launch
+
+story:
+  - Banana Savannah
+  - Shuffle
+  - Banana Pipe
+  - Dominion:
+    - hasRedGoal
+  - Infinity
+  - Solar Panels
+  - Crease
+  - Slippery Slopes
+  - Shake Weights
+  - Jungle Gym
+  - Crash Simulator
+  - Crossword
+  - Death Blocks
+  - S-Clip
+  - Crusher
+  - Locksmith
+  - Greenhorn
+  - Cartons
+  - Powered Rail:
+    - hasGreenGoal
+    - hasRedGoal
+  - Pow!
+  - Quadrangle
+  - Delivery
+  - Solar Flare
+  - Firework:
+    - hasGreenGoal
+    - hasRedGoal
+  - Reel:
+    - hasGreenGoal
+  - Runway
+  - Fissure:
+    - hasRedGoal
+  - Swing Set
+  - Hummingbirds
+  - Revitalize
+  - Arch:
+    - hasGreenGoal
+    - hasRedGoal
+  - Horseshoe
+  - Teetering Towers
+  - Udon
+  - Diamondback
+  - Carabiner
+  - Hatches:
+    - hasGreenGoal
+    - hasRedGoal
+  - Rickety Ridge
+  - 5 Golden Rings:
+    - hasRedGoal
+  - High Striker:
+    - hasRedGoal
+  - Distort
+  - Squeeze:
+    - hasRedGoal
+  - Weirs
+  - Hurdles
+  - Tablecloth
+  - Drop Cycle:
+    - hasGreenGoal
+    - hasRedGoal
+  - Hole in the Wall
+  - Spires
+  - Equinox
+  - Influx:
+    - hasRedGoal
+  - Trailblazing
+  - Lava Plume
+  - Surcharge
+  - Performance
+  - Sanguine
+  - Hurricane
+  - Surveillance
+  - Heist
+  - Swerve Highway
+  - Battle Canyon:
+    - hasRedGoal
+  - Propulsion
+  - Contractor
+  - Clockwork:
+    - hasRedGoal
+  - Drills
+  - Harmonic
+  - Smartphone
+  - Sustain:
+    - hasGreenGoal
+    - hasRedGoal
+  - Zap!
+  - Pulley:
+    - hasRedGoal
+  - Nuclear
+  - Hydroplane
+  - Altitude:
+    - hasGreenGoal
+    - hasRedGoal
+  - Circumvent:
+    - hasGreenGoal
+  - Toblerone
+  - Eaves
+  - "1080"
+  - Influence
+  - Toboggan
+  - Icicle Shaft
+  - Do You Wanna Build A Snowman?:
+    - hasRedGoal
+  - Super Monkey Maker
+  - Interchange
+  - Accelerator:
+    - hasRedGoal
+  - Infiltrate
+  - Galeforce:
+    - hasRedGoal
+  - Commingle Soiree
+  - Arbor:
+    - hasGreenGoal
+  - Comets
+  - Blast Off!
+  - Rotary Orbit:
+    - hasRedGoal
+  - Matrix
+  - Turbulent
+  - Haywire
+  - Collapse
+  - Apparition
+  - Invert
+  - Overheat
+  - Spindle
+  - Defunct
+  - Escape Sequence
+b:
+bx:
+a:
+  - Extraction
+ax:
+  - "Eddy's Bruh Hunt : D"
+  - Walkr69_
+  - Namb69
+  - 6IKEx9IKEne
+e:
+ex:
+m:
+  - Debris
+  - Wreckage
+  - Melty
+  - Eclipse
+  - Majestic
+  - Egress
+  - Parallel
+  - Planar Shift
+  - Strife
+  - Distortion
+mx:
+  - Emergence
+  - Conquest
+  - Fervor
+  - Resurgent
+  - Vigor
+  - Determination
+  - Faith
+  - Conviction
+  - Resolute
+  - Journey's End
