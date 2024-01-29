@@ -27,4 +27,8 @@ export class EnvService {
     public get twitchToken(): string {
         return process.env.TWITCH_ACCESS_TOKEN;
     }
+
+    public get databaseUrl(): string {
+        return process.env.DATABASE_URL;
+    }
 }

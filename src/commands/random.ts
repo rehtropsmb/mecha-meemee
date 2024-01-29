@@ -15,6 +15,7 @@ const aliases = [
     'flip',
     'lenient',
     'leniency',
+    'cope',
 ];
 
 // range is [0, max]
@@ -40,7 +41,8 @@ const getResult = (cmd: string, username: string) => {
             }**.`;
         }
         case 'lenient':
-        case 'leniency': {
+        case 'leniency':
+        case 'cope': {
             return `It's **${getRandomInt(1) ? 'cope' : '𝓵𝓮𝓷𝓲𝓮𝓷𝓽'}**.`;
         }
     }
@@ -48,9 +50,9 @@ const getResult = (cmd: string, username: string) => {
     return `something terrible happened... (${cmd})`;
 };
 
-const discordExecute = (discordArgs: DiscordArgs) => {
+const discordExecute = async (discordArgs: DiscordArgs) => {
     const text = getResult(discordArgs.command, discordArgs.user.username);
-    discordArgs.message.reply(text);
+    return text;
 };
 
 const twitchExecute = async (twitchArgs: TwitchArgs): Promise<string> => {

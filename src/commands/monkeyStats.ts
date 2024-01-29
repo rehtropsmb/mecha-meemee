@@ -121,7 +121,8 @@ const discordExecute = async (discordArgs: DiscordArgs) => {
     if (list.length < 1) {
         text += '*No submissions.*';
     }
-    message.reply(text);
+
+    return text;
 };
 
 const twitchExecute = async (twitchArgs: TwitchArgs): Promise<string> => {

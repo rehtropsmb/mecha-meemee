@@ -4,6 +4,7 @@ import { EnvService } from './services/env.service';
 import { StageService } from './services/stage.service';
 import { TwitchService } from './services/twitch.service';
 import { CommandService } from './services/command.service';
+import { DatabaseService } from './services/database.service';
 
 // Don't end program when uncaught exception occurs
 process.on('uncaughtException', (error) => {
@@ -22,6 +23,10 @@ stageService.init();
 const commandService: CommandService =
     container.get<CommandService>(CommandService);
 commandService.init();
+
+const databaseService: DatabaseService =
+    container.get<DatabaseService>(DatabaseService);
+databaseService.init();
 
 // finally, connect to discord & twitch
 const discordService: DiscordService =

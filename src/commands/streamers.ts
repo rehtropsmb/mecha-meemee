@@ -57,6 +57,7 @@ const discordExecute = async (discordArgs: DiscordArgs) => {
     }
 
     discordArgs.message.reply({ embeds: [embed] });
+    return '';
 };
 
 const liveCommand: Command = {

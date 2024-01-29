@@ -254,7 +254,7 @@ const discordExecute = async (discordArgs: DiscordArgs) => {
         'stardust'
     );
 
-    message.reply(text);
+    return text;
 };
 
 // const twitchExecute = async (twitchArgs: TwitchArgs) => {

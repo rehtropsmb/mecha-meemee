@@ -5,7 +5,7 @@ export interface Command {
     // command aliases
     aliases: string[];
     // execution functions
-    discordExecute?: (discordArgs: DiscordArgs) => void;
+    discordExecute?: (discordArgs: DiscordArgs) => Promise<string>;
     twitchExecute?: (twitchArgs: TwitchArgs) => Promise<string>;
     discordInteraction?: (interaction: Interaction) => void;
     // help text

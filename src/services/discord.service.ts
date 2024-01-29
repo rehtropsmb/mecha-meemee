@@ -39,7 +39,10 @@ export class DiscordService {
         });
 
         client.on(Events.MessageCreate, async (message: Message) => {
-            this.commandService.handleDiscordCommand(message);
+            const result = await this.commandService.handleDiscordCommand(message);
+            if (result) {
+                message.reply(result);
+            }
         });
 
         client.on(

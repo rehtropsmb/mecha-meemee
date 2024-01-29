@@ -10,8 +10,9 @@ import { Interaction, Message } from 'discord.js';
 import monkeyStatsCommand from '../commands/monkeyStats';
 import randomCommand from '../commands/random';
 import discordCommand from '../commands/links';
-import liveCommand from '../commands/twitch';
+import liveCommand from '../commands/streamers';
 import { TwitchUser } from '../interfaces/twitch.interface';
+import oopsterCommand from '../commands/oopster';
 
 @injectable()
 export class CommandService {
@@ -21,6 +22,7 @@ export class CommandService {
         randomCommand,
         discordCommand,
         liveCommand,
+        oopsterCommand,
     ];
 
     private discordCommands: any = {};
@@ -55,7 +57,7 @@ export class CommandService {
         }
     }
 
-    public handleDiscordCommand(message: Message) {
+    public handleDiscordCommand(message: Message): string {
         if (!message.content.startsWith('-')) {
             return;
         }
@@ -69,7 +71,7 @@ export class CommandService {
             return;
         }
 
-        this.discordCommands[command].discordExecute({
+        return this.discordCommands[command].discordExecute({
             command: command,
             args: args,
             message: message,

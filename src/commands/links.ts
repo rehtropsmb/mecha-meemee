@@ -24,14 +24,12 @@ const getLink = (cmd: string): string => {
     return `something terrible happened... (${cmd})`;
 };
 
-const discordExecute = (discordArgs: DiscordArgs) => {
-    const text = getLink(discordArgs.command);
-    discordArgs.message.reply(text);
+const discordExecute = async (discordArgs: DiscordArgs) => {
+    return getLink(discordArgs.command);
 };
 
 const twitchExecute = async (twitchArgs: TwitchArgs) => {
-    const text = getLink(twitchArgs.command);
-    return text;
+    return getLink(twitchArgs.command);
 };
 
 const linksCommand: Command = {

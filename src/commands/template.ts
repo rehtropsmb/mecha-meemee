@@ -7,7 +7,9 @@ import {
 
 const aliases = ['template'];
 
-const discordExecute = (discordArgs: DiscordArgs) => {};
+const discordExecute = async (discordArgs: DiscordArgs) => {
+    return 'Finished';
+};
 
 const twitchExecute = async (twitchArgs: TwitchArgs) => {
     return 'Finished';
