@@ -30,6 +30,7 @@ export class TwitchService {
         'MonkeyBallSpeedruns',
         'Youbacon42',
         'ToothpasteThy',
+        'Kpenpen',
     ];
 
     public async init() {
