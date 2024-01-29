@@ -20,7 +20,8 @@ const getLink = (cmd: string): string => {
             return `I'm MechaMeemee, a bot created for the Super Monkey Ball community. You can get pack information, search for speedrun records, and more! Use \`-help\` to see a list of commands, \`-invite\` to invite to your own Discord server, and \`-twitch\` to invite to your twitch chat. If you have any questions or encounter any bugs, please join the MechaMeemee discord by running \`-discord\`!`;
         }
     }
-    return 'something terrible happe';
+
+    return `something terrible happened... (${cmd})`;
 };
 
 const discordExecute = (discordArgs: DiscordArgs) => {

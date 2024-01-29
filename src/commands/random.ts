@@ -54,10 +54,10 @@ const discordExecute = (discordArgs: DiscordArgs) => {
 };
 
 const twitchExecute = async (twitchArgs: TwitchArgs): Promise<string> => {
-    const text = getResult(twitchArgs.command, twitchArgs.user).replace(
-        /\*/g,
-        ''
-    );
+    const text = getResult(
+        twitchArgs.command,
+        twitchArgs.user['display-name']
+    ).replace(/\*/g, '');
     return text;
 };
 

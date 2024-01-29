@@ -1,4 +1,5 @@
 import { Interaction, Message, User } from 'discord.js';
+import { TwitchUser } from './twitch.interface';
 
 export interface Command {
     // command aliases
@@ -23,6 +24,6 @@ export interface DiscordArgs {
 export interface TwitchArgs {
     command: string;
     args: string;
-    user: string;
+    user: TwitchUser;
     channel: string;
 }
