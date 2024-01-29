@@ -138,15 +138,15 @@ const twitchExecute = async (twitchArgs: TwitchArgs): Promise<string> => {
 
     const list = await generateMonkeyList(eliteUser.id);
     
-    let text = `${eliteUser.username} uses`;
+    let text = `${eliteUser.username} uses `;
     if (list.length > 0) {
-        text += `${list[0].name} (${list[0].percent}%, ${list[0].num} submissions)*`;
+        text += `${list[0].name} (${list[0].percent}%, ${list[0].num} submissions)`;
     }
     if (list.length > 1) {
-        text += `and ${list[1].name} (${list[1].percent}%, ${list[1].num} submissions)*`;
+        text += ` and ${list[1].name} (${list[1].percent}%, ${list[1].num} submissions)`;
     }
     if (list.length < 1) {
-        text = `${eliteUser.username} has no submissions.`;
+        text = `${eliteUser.username} has no submissions`;
     }
     return text;
 };
