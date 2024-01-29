@@ -79,7 +79,8 @@ export class CommandService {
     }
 
     public handleTwitchCommand(message: string, user: string, channel: string) {
-        console.log(message);
+         // remove control characters that sometimes get passed
+        message = message.replace(/[^\x00-\x7F]/g, "").trim();
         const command = message.split(' ')[0].substring(1);
         const args = message.substring(
             message.indexOf(command) + command.length + 1
