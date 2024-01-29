@@ -41,7 +41,7 @@ const discordExecute = (discordArgs: DiscordArgs) => {
     discordArgs.message.reply(text);
 };
 
-const twitchExecute = async (twitchArgs: TwitchArgs) => {
+const twitchExecute = async (twitchArgs: TwitchArgs): Promise<string> => {
     const text = getResult(twitchArgs.command, twitchArgs.user).replace(/\*/g, '');
     return text;
 };

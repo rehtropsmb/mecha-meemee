@@ -3,9 +3,8 @@ import {
     DiscordArgs,
     TwitchArgs,
 } from '../interfaces/command.interface';
-import { EliteUser } from '../interfaces/elite.interface';
 
-const getUser = async (username: string): Promise<EliteUser> => {
+const getUser = async (username: string) => {
     const url = new URL(
         'https://dtexopnygapvstzdhwai.supabase.co/rest/v1/profile'
     );
@@ -16,7 +15,7 @@ const getUser = async (username: string): Promise<EliteUser> => {
     url.searchParams.append('username', `ilike.%${username}%`);
     url.searchParams.append('order', 'username.asc');
     url.searchParams.append('offset', '0');
-    url.searchParams.append('limit', '5');
+    url.searchParams.append('limit', '20');
 
     const response = await fetch(url, {
         method: 'get',
@@ -26,30 +25,19 @@ const getUser = async (username: string): Promise<EliteUser> => {
         },
     });
 
-    const userList = await response.json() as EliteUser[];
-
-    if (userList.length < 1) {
-        return null;
-    }
-
-    let result = userList[0];
-    for (const user of userList) {
-        if (user.username.toLowerCase() === username.toLowerCase()) {
-            result = user;
-            break;
-        }
-    }
+    const result = await response.json();
 
     return result;
 }
 
-const getUserSubmissions = async (profileId: number) => {
+const getUserRecords = async (profileId: string) => {
     const url = new URL(
         'https://dtexopnygapvstzdhwai.supabase.co/rest/v1/submission'
     );
     url.searchParams.append(
         'select',
         'monkey(id,monkey_name),live,level(name),record',
+        // 'all_position,id,level(category,mode(game(abb,name)),name,timer_type),position,profile(country,id,username),proof,record,score,tas,monkey(id,monkey_name)',
     );
     url.searchParams.append('profile_id', `in.(${profileId})`);
     url.searchParams.append('order', 'id.desc');
@@ -69,9 +57,30 @@ const getUserSubmissions = async (profileId: number) => {
     return result;
 };
 
-const generateMonkeyList = async (userId: number) => {
+const discordExecute = async (discordArgs: DiscordArgs) => {
+    const { command, args, message, user } = discordArgs;
 
-    const results = await getUserSubmissions(userId) as any;
+    const eliteUsers = await getUser(args.trim()) as any;
+
+    if (eliteUsers.length < 1) {
+        message.reply('User not found!');
+        return;
+    }
+    const id = eliteUsers[0].id;
+
+    const results = await getUserRecords(id) as any;
+
+    // if (results.length < 1) {
+    //     message.reply('No submissions!');
+    //     return;
+    // }
+    // let text = `**Replay Records:**\n`;
+
+    // for (const r of results) {
+    //     if (!r.live) {
+    //         text += `${r.level.name.replace(/_/ig, ' ')}  | ${r.record}\n`;
+    //     }
+    // }
 
     const map = {};
     for (const a of results) {
@@ -98,26 +107,11 @@ const generateMonkeyList = async (userId: number) => {
     for (const val of list) {
         val.percent = Math.round((val.num / total) * 10000) / 100;
     }
+    
+    let text = `**${eliteUsers[0].username}**'s most used monkeys:\n`;
     list.sort((a, b) => {
         return b.num - a.num;
     });
-
-    return list;
-};
-
-const discordExecute = async (discordArgs: DiscordArgs) => {
-    const { args, message } = discordArgs;
-
-    const eliteUser = await getUser(args.trim());
-
-    if (!eliteUser) {
-        message.reply('User not found!');
-        return;
-    }
-
-    const list = await generateMonkeyList(eliteUser.id);
-    
-    let text = `**${eliteUser.username}**'s most used monkeys:\n`;
     for (const val of list) {
         text += `**${val.name}**: ${val.percent}% *(${val.num} submissions)*\n`;
     }
@@ -127,37 +121,12 @@ const discordExecute = async (discordArgs: DiscordArgs) => {
     message.reply(text);
 };
 
-const twitchExecute = async (twitchArgs: TwitchArgs): Promise<string> => {
-    const { args } = twitchArgs;
-
-    const eliteUser = await getUser(args.trim());
-
-    if (!eliteUser) {
-        return 'User not found!';
-    }
-
-    const list = await generateMonkeyList(eliteUser.id);
-    
-    let text = `${eliteUser.username} uses`;
-    if (list.length > 0) {
-        text += `${list[0].name} (${list[0].percent}%, ${list[0].num} submissions)*`;
-    }
-    if (list.length > 1) {
-        text += `and ${list[1].name} (${list[1].percent}%, ${list[1].num} submissions)*`;
-    }
-    if (list.length < 1) {
-        text = `${eliteUser.username} has no submissions.`;
-    }
-    return text;
-};
-
-const monkeyStatsCommand: Command = {
+const monkeyCommand: Command = {
     discordExecute,
-    twitchExecute,
-    aliases: ['monkey', 'monkeys'],
+    aliases: ['replay', 'replays'],
     description: [],
     arguments: [],
     examples: [],
 };
 
-export default monkeyStatsCommand;
+export default monkeyCommand;
