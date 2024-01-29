@@ -7,13 +7,15 @@ import {
 } from '../interfaces/command.interface';
 import eliteCommand from '../commands/elite';
 import { Interaction, Message } from 'discord.js';
-import lenientCommand from '../commands/lenient';
+import monkeyCommand from '../commands/monkeyStats';
+import randomCommand from '../commands/random';
 
 @injectable()
 export class CommandService {
     private commands: Command[] = [
         eliteCommand,
-        lenientCommand,
+        monkeyCommand,
+        randomCommand,
     ];
 
     private discordCommands: any = {};

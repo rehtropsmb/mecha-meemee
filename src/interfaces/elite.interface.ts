@@ -13,6 +13,7 @@ export interface BoardSubmission {
     report: any;
     submitted_at: any;
     tas: boolean;
+    proof: string;
 }
 
 export interface RecentSubmission {
@@ -35,10 +36,10 @@ export interface EliteLevel {
 }
 
 export interface EliteMode {
-    game: EliteGame;
+    game: EliteGameName;
 }
 
-export interface EliteGame {
+export interface EliteGameName {
     name: string;
     abb: string;
 }
@@ -47,4 +48,40 @@ export interface EliteProfile {
     country: string;
     id: number;
     username: string;
+}
+
+export interface EliteGame {
+    abb: string;
+    custom: boolean;
+    download: string;
+    live_preference: boolean;
+    name: string;
+    release_date: string;
+    mode: EliteCategory[];
+    creator: string; // null for all packs
+    game_monkey: any;
+    game_platform: any;
+    game_region: any;
+    game_rule: any[];
+    profile: EliteUser[];
+}
+
+export interface EliteCategory {
+    category: string;
+    name: string;
+    level: EliteChart[];
+}
+
+export interface EliteChart {
+    category: string;
+    chart_type: string;
+    name: string;
+    time: number;
+    timer_type: string;
+}
+
+export interface EliteUser {
+    id: number;
+    username: string;
+    country: string;
 }
