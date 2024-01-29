@@ -5,7 +5,17 @@ import {
     TwitchArgs,
 } from '../interfaces/command.interface';
 
-const aliases = ['vibecheck', 'vibes', 'bonescheck', 'bonecheck','bones', 'coin', 'flip', 'lenient', 'leniency'];
+const aliases = [
+    'vibecheck',
+    'vibes',
+    'bonescheck',
+    'bonecheck',
+    'bones',
+    'coin',
+    'flip',
+    'lenient',
+    'leniency',
+];
 
 // range is [0, max]
 const getRandomInt = (max: number) => {
@@ -25,7 +35,9 @@ const getResult = (cmd: string, username: string) => {
         }
         case 'coin':
         case 'flip': {
-            return `The coin flipped and landed on **${getRandomInt(1) ? 'heads' : 'tails'}**.`;
+            return `The coin flipped and landed on **${
+                getRandomInt(1) ? 'heads' : 'tails'
+            }**.`;
         }
         case 'lenient':
         case 'leniency': {
@@ -42,7 +54,10 @@ const discordExecute = (discordArgs: DiscordArgs) => {
 };
 
 const twitchExecute = async (twitchArgs: TwitchArgs): Promise<string> => {
-    const text = getResult(twitchArgs.command, twitchArgs.user).replace(/\*/g, '');
+    const text = getResult(twitchArgs.command, twitchArgs.user).replace(
+        /\*/g,
+        ''
+    );
     return text;
 };
 

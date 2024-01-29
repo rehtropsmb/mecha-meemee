@@ -9,6 +9,8 @@ import eliteCommand from '../commands/elite';
 import { Interaction, Message } from 'discord.js';
 import monkeyStatsCommand from '../commands/monkeyStats';
 import randomCommand from '../commands/random';
+import discordCommand from '../commands/links';
+import liveCommand from '../commands/twitch';
 
 @injectable()
 export class CommandService {
@@ -16,6 +18,8 @@ export class CommandService {
         eliteCommand,
         monkeyStatsCommand,
         randomCommand,
+        discordCommand,
+        liveCommand,
     ];
 
     private discordCommands: any = {};
@@ -79,8 +83,8 @@ export class CommandService {
     }
 
     public handleTwitchCommand(message: string, user: string, channel: string) {
-         // remove control characters that sometimes get passed
-        message = message.replace(/[^\x00-\x7F]/g, "").trim();
+        // remove control characters that sometimes get passed
+        message = message.replace(/[^\x00-\x7F]/g, '').trim();
         const command = message.split(' ')[0].substring(1);
         const args = message.substring(
             message.indexOf(command) + command.length + 1

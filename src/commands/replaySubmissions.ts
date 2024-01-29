@@ -10,7 +10,7 @@ const getUser = async (username: string) => {
     );
     url.searchParams.append(
         'select',
-        'country,discord,id,username,twitch_username,twitter_handle,youtube_handle',
+        'country,discord,id,username,twitch_username,twitter_handle,youtube_handle'
     );
     url.searchParams.append('username', `ilike.%${username}%`);
     url.searchParams.append('order', 'username.asc');
@@ -28,7 +28,7 @@ const getUser = async (username: string) => {
     const result = await response.json();
 
     return result;
-}
+};
 
 const getUserRecords = async (profileId: string) => {
     const url = new URL(
@@ -36,7 +36,7 @@ const getUserRecords = async (profileId: string) => {
     );
     url.searchParams.append(
         'select',
-        'monkey(id,monkey_name),live,level(name),record',
+        'monkey(id,monkey_name),live,level(name),record'
         // 'all_position,id,level(category,mode(game(abb,name)),name,timer_type),position,profile(country,id,username),proof,record,score,tas,monkey(id,monkey_name)',
     );
     url.searchParams.append('profile_id', `in.(${profileId})`);
@@ -60,7 +60,7 @@ const getUserRecords = async (profileId: string) => {
 const discordExecute = async (discordArgs: DiscordArgs) => {
     const { command, args, message, user } = discordArgs;
 
-    const eliteUsers = await getUser(args.trim()) as any;
+    const eliteUsers = (await getUser(args.trim())) as any;
 
     if (eliteUsers.length < 1) {
         message.reply('User not found!');
@@ -68,7 +68,7 @@ const discordExecute = async (discordArgs: DiscordArgs) => {
     }
     const id = eliteUsers[0].id;
 
-    const results = await getUserRecords(id) as any;
+    const results = (await getUserRecords(id)) as any;
 
     // if (results.length < 1) {
     //     message.reply('No submissions!');
@@ -86,11 +86,9 @@ const discordExecute = async (discordArgs: DiscordArgs) => {
     for (const a of results) {
         if (map[a.monkey.monkey_name]) {
             map[a.monkey.monkey_name]++;
-        }
-        else {
+        } else {
             map[a.monkey.monkey_name] = 1;
         }
-        
     }
 
     const list = [];
@@ -107,7 +105,7 @@ const discordExecute = async (discordArgs: DiscordArgs) => {
     for (const val of list) {
         val.percent = Math.round((val.num / total) * 10000) / 100;
     }
-    
+
     let text = `**${eliteUsers[0].username}**'s most used monkeys:\n`;
     list.sort((a, b) => {
         return b.num - a.num;

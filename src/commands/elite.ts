@@ -4,13 +4,16 @@ import {
     DiscordArgs,
     TwitchArgs,
 } from '../interfaces/command.interface';
-import { BoardSubmission, EliteGame, EliteLevel } from '../interfaces/elite.interface';
+import {
+    BoardSubmission,
+    EliteGame,
+    EliteLevel,
+} from '../interfaces/elite.interface';
 import { Stage } from '../interfaces/stage.interface';
 import container from '../services/container';
 import { StageService } from '../services/stage.service';
 
 const getGame = async (gameAbb): Promise<EliteGame> => {
-
     const url = new URL(
         'https://dtexopnygapvstzdhwai.supabase.co/rest/v1/game'
     );
@@ -31,7 +34,7 @@ const getGame = async (gameAbb): Promise<EliteGame> => {
         },
     });
 
-    return await response.json() as EliteGame;
+    return (await response.json()) as EliteGame;
 };
 
 const getStageName = (stage: Stage, options: Options) => {
@@ -39,8 +42,7 @@ const getStageName = (stage: Stage, options: Options) => {
 
     if (stage.cat.toLowerCase() === 'story') {
         stagename += `world`;
-    }
-    else if (stage.cat.startsWith('B')) {
+    } else if (stage.cat.startsWith('B')) {
         stagename += `beginner`;
     } else if (stage.cat.startsWith('A')) {
         stagename += `advanced`;
@@ -65,10 +67,14 @@ const getStageName = (stage: Stage, options: Options) => {
     } else {
         stagename = stagename + '_(blue)';
     }
+};
 
-}
-
-const getRecords = async (game: string, category: string, score: boolean, live: boolean = true) => {
+const getRecords = async (
+    game: string,
+    category: string,
+    score: boolean,
+    live: boolean = true
+) => {
     const body = {
         abb: game,
         category: category,
@@ -90,7 +96,12 @@ const getRecords = async (game: string, category: string, score: boolean, live: 
     return response.json();
 };
 
-const getLeaderboard = async (stagename: string, category: string, game: string, score: boolean): Promise<BoardSubmission[]> => {
+const getLeaderboard = async (
+    stagename: string,
+    category: string,
+    game: string,
+    score: boolean
+): Promise<BoardSubmission[]> => {
     const body = {
         game: game,
         category_name: category,
@@ -109,11 +120,16 @@ const getLeaderboard = async (stagename: string, category: string, game: string,
             },
         }
     );
-    const data: BoardSubmission[] = (await response.json()) as BoardSubmission[];
+    const data: BoardSubmission[] =
+        (await response.json()) as BoardSubmission[];
     return data;
-}
+};
 
-const fetchResponse = async (stagename: string, score: boolean, pack: string): Promise<string> => {
+const fetchResponse = async (
+    stagename: string,
+    score: boolean,
+    pack: string
+): Promise<string> => {
     // let stagename = '';
 
     // if (stage.cat.toLowerCase() === 'story') {
@@ -150,7 +166,11 @@ const fetchResponse = async (stagename: string, score: boolean, pack: string): P
 //     return `${client.emojis.cache.find((emoji) => emoji.name === name)}`;
 // };
 
-const formatResult = (game: EliteGame, level: EliteLevel, leaderboard: BoardSubmission[]) => {
+const formatResult = (
+    game: EliteGame,
+    level: EliteLevel,
+    leaderboard: BoardSubmission[]
+) => {
     const gameName = game.name;
     const stageName = level.name;
     const record = leaderboard[0].record;
@@ -159,9 +179,9 @@ const formatResult = (game: EliteGame, level: EliteLevel, leaderboard: BoardSubm
         .replace('//x.com', '//fixupx.com');
     const username = leaderboard[0].profile.username;
     const usernameLink = `https://www.smbelite.net/user/${leaderboard[0].profile.id}`;
-    const leaderboardLink = `https://smbelite.net/games/${game.abb
-        }/${level.category}/${(false) ? 'score' : 'time'}/${level.name
-        }`;
+    const leaderboardLink = `https://smbelite.net/games/${game.abb}/${
+        level.category
+    }/${false ? 'score' : 'time'}/${level.name}`;
     let medal;
     if (leaderboard[0].medal === 'platinum') {
         medal = 'Platinum';
@@ -172,7 +192,7 @@ const formatResult = (game: EliteGame, level: EliteLevel, leaderboard: BoardSubm
     }
 
     return `**${gameName}**\n${stageName}\n**[${record}](${recordLink})** by [${username}](<${usernameLink}>) | **${medal}** on [SMB Elite](<${leaderboardLink}>)`;
-}
+};
 
 interface Options {
     name?: string;
@@ -180,7 +200,7 @@ interface Options {
     green?: boolean;
     red?: boolean;
     stunt?: boolean;
-};
+}
 
 const cleanArgs = (args: string): Options => {
     const result: Options = {};
@@ -194,13 +214,13 @@ const cleanArgs = (args: string): Options => {
     result.name = args;
 
     return result;
-}
+};
 
 const findStage = (name: string): Stage[] => {
     const stageService: StageService =
         container.resolve<StageService>(StageService);
     return stageService.getStageMatches(name);
-}
+};
 
 const discordExecute = async (discordArgs: DiscordArgs) => {
     const { command, args, message, user } = discordArgs;
@@ -228,7 +248,11 @@ const discordExecute = async (discordArgs: DiscordArgs) => {
     }
     const name = search[0].item.name;
 
-    const text = await fetchResponse(name, command === 'elitescore', 'stardust');
+    const text = await fetchResponse(
+        name,
+        command === 'elitescore',
+        'stardust'
+    );
 
     message.reply(text);
 };
