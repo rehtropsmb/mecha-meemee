@@ -42,7 +42,7 @@ const discordExecute = (discordArgs: DiscordArgs) => {
 };
 
 const twitchExecute = async (twitchArgs: TwitchArgs) => {
-    const text = getResult(twitchArgs.command, twitchArgs.user).replace(/\\*/g, '');
+    const text = getResult(twitchArgs.command, twitchArgs.user).replace(/\*/g, '');
     return text;
 };
 
